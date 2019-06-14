@@ -1,0 +1,838 @@
+2019-06-14 11:30:23 kafka_consumer.py DEBUG  kafka解析参数{"callback_url":"http://www.baixin.net.cn","data":{"apply_no":"BC135772","credit_report_list":[{"rule_no":"R0002","url":"https://report.shujumohe.com/report/TASKYYS100000201906141046580681103283/C724155208944A5C8C820B0213AB0F2C"},{"rule_no":"R0001","url":"https://dev.juxinli.com/report/#/report?token=8df22325d78b42f6affb771907742106&org=GELS"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?isReport=true&authItem=ecommerce_credit&token=0056401319000kqVfOJjEt5JJ4TMUOSL&appId=gxbaae9436caa5c23f8&sign=a36827a49daf23a96d96d1999d9eabfb&timestamp=1560483020542"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?appId=gxbaae9436caa5c23f8&sign=a36827a49daf23a96d96d1999d9eabfb&timestamp=1560483020542&token=0056401319000kqVfOJjEt5JJ4TMUOSL"},{"rule_no":"R0004","url":"http://117.78.42.227:8080/api/report/ct91?applyNo=BC135772&method=91ZHENGXIN_sqr&token=944462d4-73cf-4b01-9e11-3fe2e99c821f"},{"rule_no":"R0003","url":"http://117.78.42.227:8080/api/report/bairong?applyNo=BC135772&method=BAIRONG_sqr&token=a25c43e3-4683-45d9-93e8-f6d08dffc13f"},{"rule_no":"R0006","url":"http://117.78.42.227:8080/api/report/py?applyNo=BC135772&method=PY_sqr&token=48da8d68-72a4-4057-8df6-963ac4044b37"},{"rule_no":"R0005","url":"http://117.78.42.227:8080/api/report/tianxing?applyNo=BC135772&method=TXSK_sqr&token=fc854218-6251-4a5d-8075-60866507896b"},{"rule_no":"R0007","url":"http://117.78.42.227:8080/api/report/py2?applyNo=BC135772&method=PY2_zxqs&token=a83a3ee1-7c70-4af7-b348-91e81cf6dd8b"},{"rule_no":"R0009","url":"http://192.168.1.112:8050/cp-service/v1/contract/spb/download?contractNo=BC135772&sign=efc0b4496f171bbb097d21b1a2bf98e7"}],"id_no":"440681199009230819","name":"莫澄荣","phone_no":"13751549090"},"merch_no":"100002","rule_group_no":"rule001","sign":"8f516fd9a1dd8638873899586045ed46","task_no":"2019061411301700001"}
+2019-06-14 11:30:23 craw_route.py INFO  数据魔盒开始爬虫
+2019-06-14 11:30:23 craw_route.py INFO  数据魔盒爬虫结束
+2019-06-14 11:30:23 craw_route.py INFO  聚信立开始爬虫
+2019-06-14 11:30:23 craw_route.py INFO  聚信立爬虫结束
+2019-06-14 11:30:23 craw_route.py INFO  参数错误
+2019-06-14 11:30:24 craw_route.py INFO  91征信开始爬虫
+2019-06-14 11:30:24 craw_route.py INFO  91征信爬虫结束
+2019-06-14 11:30:24 craw_route.py INFO  百融开始爬虫
+2019-06-14 11:30:24 craw_route.py INFO  百融爬虫结束
+2019-06-14 11:30:24 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 11:30:24 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 11:30:24 craw_route.py INFO  天行数科开始爬虫
+2019-06-14 11:30:24 craw_route.py INFO  天行数科爬虫结束
+2019-06-14 11:30:24 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 11:30:24 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 11:30:24 craw_route.py INFO  业务审批表开始爬虫
+2019-06-14 11:30:24 craw_route.py INFO  业务审批表爬虫结束
+2019-06-14 11:30:24 bx_spb.py INFO  file write success!
+2019-06-14 11:30:24 bx_spb.py INFO  success
+2019-06-14 11:30:25 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135772_spb_100.pdf", "task_seq_no": "84925ce7e8694552bf77a7e447d86959", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135772\\spb", "doc_code": "BC135772", "sub_type": "approveRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 11:30:25 kafka_consumer.py INFO  文件上传结束
+2019-06-14 11:30:27 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135772_91_100.pdf", "task_seq_no": "6f7b974f74844022bae57403447e3d83", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135772\\91", "doc_code": "BC135772", "sub_type": "91CreditRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 11:30:27 kafka_consumer.py INFO  文件上传结束
+2019-06-14 11:30:27 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135772_py_card_auth_100.pdf", "task_seq_no": "406034c332354ecabb269f35585cdfbe", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135772\\py", "doc_code": "BC135772", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 11:30:27 kafka_consumer.py INFO  文件上传结束
+2019-06-14 11:30:27 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135772_py_100.pdf", "task_seq_no": "55f5d5d908c2471dacc288b97aa86c4a", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135772\\py", "doc_code": "BC135772", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 11:30:27 kafka_consumer.py INFO  文件上传结束
+2019-06-14 11:30:28 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135772_bairong_100.pdf", "task_seq_no": "83517ef44fac43f393264e034a299bb2", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135772\\bairong", "doc_code": "BC135772", "sub_type": "bairongRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 11:30:28 kafka_consumer.py INFO  文件上传结束
+2019-06-14 11:30:28 kafka_consumer.py INFO  任务[55f5d5d908c2471dacc288b97aa86c4a]文件上传成功
+2019-06-14 11:30:28 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135772_txsk_100.pdf", "task_seq_no": "024989920e6a43b2b67bc0204495b6f1", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135772\\txsk", "doc_code": "BC135772", "sub_type": "tianxingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 11:30:28 kafka_consumer.py INFO  文件上传结束
+2019-06-14 11:30:28 kafka_consumer.py INFO  任务[83517ef44fac43f393264e034a299bb2]文件上传成功
+2019-06-14 11:30:28 kafka_consumer.py INFO  任务[84925ce7e8694552bf77a7e447d86959]文件上传成功
+2019-06-14 11:30:29 ju_xin_li.py INFO  聚信立数据爬取中
+2019-06-14 11:30:30 kafka_consumer.py INFO  任务[6f7b974f74844022bae57403447e3d83]文件上传成功
+2019-06-14 11:30:30 kafka_consumer.py INFO  任务[406034c332354ecabb269f35585cdfbe]文件上传成功
+2019-06-14 11:30:31 shu_ju_mo_he.py INFO  数据魔盒数据获取成功
+2019-06-14 11:30:31 kafka_consumer.py INFO  任务[024989920e6a43b2b67bc0204495b6f1]文件上传成功
+2019-06-14 11:30:33 ju_xin_li.py INFO  聚信立数据写入HTML
+2019-06-14 11:30:33 ju_xin_li.py INFO  C:\wkhtml\fonts
+2019-06-14 11:30:33 ju_xin_li.py INFO  C:\wkhtml\crawler_report\2019\06\14\BC135772\jxl
+2019-06-14 11:30:33 ju_xin_li.py INFO  创建成功
+2019-06-14 11:30:35 ju_xin_li.py INFO  聚信立pdf报告生成
+2019-06-14 11:30:37 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135772_jxl_100.pdf", "task_seq_no": "b975a07264a343dda68f45d57e8676af", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135772\\jxl", "doc_code": "BC135772", "sub_type": "juxinliRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 11:30:37 kafka_consumer.py INFO  文件上传结束
+2019-06-14 11:30:39 kafka_consumer.py INFO  任务[b975a07264a343dda68f45d57e8676af]文件上传成功
+2019-06-14 11:30:41 shu_ju_mo_he.py INFO  数据魔盒PDF生成
+2019-06-14 11:30:42 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135772_sjmh_100.pdf", "task_seq_no": "c55bec70fa304e99b298a3a4045af2ac", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135772\\sjmh", "doc_code": "BC135772", "sub_type": "shujumoheRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 11:30:42 kafka_consumer.py INFO  文件上传结束
+2019-06-14 11:30:49 kafka_consumer.py INFO  任务[c55bec70fa304e99b298a3a4045af2ac]文件上传成功
+2019-06-14 11:36:46 kafka_consumer.py DEBUG  kafka解析参数{"callback_url":"http://www.baixin.net.cn","data":{"apply_no":"135771","credit_report_list":[{"rule_no":"R0002","url":"https://report.shujumohe.com/report/TASKYYS100000201906141029430720982049/C724155208944A5C8C820B0213AB0F2C"},{"rule_no":"R0001","url":"https://dev.juxinli.com/report/#/report?token=bfb972a294c148b79606037aa2c6348d&org=GELS"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?isReport=true&authItem=ecommerce_credit&token=0056401319000bbCqPkgzpvRazSYw0Y2&appId=gxbaae9436caa5c23f8&sign=eda9345e721d668e3c9c20df6b7703bf&timestamp=1560483402924"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?appId=gxbaae9436caa5c23f8&sign=eda9345e721d668e3c9c20df6b7703bf&timestamp=1560483402924&token=0056401319000bbCqPkgzpvRazSYw0Y2"},{"rule_no":"R0004","url":"http://117.78.42.227:8080/api/report/ct91?applyNo=135771&method=91ZHENGXIN_sqr&token=03ae682a-064e-45d2-a287-117f3a411afc"},{"rule_no":"R0008","url":"http://117.78.42.227:8080/api/report/intelli?applyNo=135771&method=ZZC_sqr&token=dea119fe-f437-48a9-a910-08dbd02d3b65"},{"rule_no":"R0003","url":"http://117.78.42.227:8080/api/report/bairong?applyNo=135771&method=BAIRONG_sqr&token=0628cef5-90cf-4d91-a0e5-1d782ccc53a8"},{"rule_no":"R0006","url":"http://117.78.42.227:8080/api/report/py?applyNo=135771&method=PY_sqr&token=204acbc9-a32b-4c68-93f7-0c62a018a8d0"},{"rule_no":"R0005","url":"http://117.78.42.227:8080/api/report/tianxing?applyNo=135771&method=TXSK_sqr&token=5e07c12b-d6b1-4e2f-85b4-87e01da83d3c"},{"rule_no":"R0007","url":"http://117.78.42.227:8080/api/report/py2?applyNo=135771&method=PY2_po&token=27db1eec-ed01-4f04-a028-fbe56132bb87"},{"rule_no":"R0009","url":"http://192.168.1.112:8050/cp-service/v1/contract/spb/download?contractNo=135771&sign=40bf4149af4d6b1846d27d4be5dfb531"}],"id_no":"210882198607056814","name":"刘晓明","phone_no":"13243933789"},"merch_no":"100002","rule_group_no":"rule001","sign":"b12e5d50ec84124bab4814c17e490a12","task_no":"2019061411364000004"}
+2019-06-14 11:36:46 craw_route.py INFO  数据魔盒开始爬虫
+2019-06-14 11:36:46 craw_route.py INFO  数据魔盒爬虫结束
+2019-06-14 11:36:46 craw_route.py INFO  聚信立开始爬虫
+2019-06-14 11:36:46 craw_route.py INFO  聚信立爬虫结束
+2019-06-14 11:36:46 craw_route.py INFO  参数错误
+2019-06-14 11:36:46 craw_route.py INFO  91征信开始爬虫
+2019-06-14 11:36:46 craw_route.py INFO  91征信爬虫结束
+2019-06-14 11:36:46 craw_route.py INFO  中智成开始爬虫
+2019-06-14 11:36:46 craw_route.py INFO  中智成爬虫结束
+2019-06-14 11:36:46 craw_route.py INFO  百融开始爬虫
+2019-06-14 11:36:46 craw_route.py INFO  百融爬虫结束
+2019-06-14 11:36:46 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 11:36:46 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 11:36:46 craw_route.py INFO  天行数科开始爬虫
+2019-06-14 11:36:46 craw_route.py INFO  天行数科爬虫结束
+2019-06-14 11:36:47 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 11:36:47 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 11:36:47 craw_route.py INFO  业务审批表开始爬虫
+2019-06-14 11:36:47 craw_route.py INFO  业务审批表爬虫结束
+2019-06-14 11:36:47 bx_spb.py INFO  file write success!
+2019-06-14 11:36:47 bx_spb.py INFO  success
+2019-06-14 11:36:48 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135771_spb_100.pdf", "task_seq_no": "74c7ffd68a284a95a2d73040f6734902", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135771\\spb", "doc_code": "135771", "sub_type": "approveRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 11:36:48 kafka_consumer.py INFO  文件上传结束
+2019-06-14 11:36:49 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135771_91_100.pdf", "task_seq_no": "9f40229917da402c8f31530b2c7d15e3", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135771\\91", "doc_code": "135771", "sub_type": "91CreditRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 11:36:49 kafka_consumer.py INFO  文件上传结束
+2019-06-14 11:36:49 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135771_py_100.pdf", "task_seq_no": "fcaad2d18b9441639e2cdb686150aeca", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135771\\py", "doc_code": "135771", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 11:36:49 kafka_consumer.py INFO  文件上传结束
+2019-06-14 11:36:50 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135771_zhongzc_100.pdf", "task_seq_no": "f1d1434539d74d2ab3864a8d433ef5d0", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135771\\zhongzc", "doc_code": "135771", "sub_type": "intellicreditRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 11:36:50 kafka_consumer.py INFO  文件上传结束
+2019-06-14 11:36:50 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135771_py_card_auth_100.pdf", "task_seq_no": "b6e28dd3c33b49abb2c6c9b040e0d42f", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135771\\py", "doc_code": "135771", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 11:36:50 kafka_consumer.py INFO  文件上传结束
+2019-06-14 11:36:50 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135771_bairong_100.pdf", "task_seq_no": "b02ed7e6eea343d481876d20b82bfd65", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135771\\bairong", "doc_code": "135771", "sub_type": "bairongRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 11:36:50 kafka_consumer.py INFO  文件上传结束
+2019-06-14 11:36:50 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135771_txsk_100.pdf", "task_seq_no": "da1148365d4c45c297c71af3dbf11468", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135771\\txsk", "doc_code": "135771", "sub_type": "tianxingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 11:36:50 kafka_consumer.py INFO  文件上传结束
+2019-06-14 11:36:50 kafka_consumer.py INFO  任务[74c7ffd68a284a95a2d73040f6734902]文件上传成功
+2019-06-14 11:36:50 kafka_consumer.py INFO  任务[b6e28dd3c33b49abb2c6c9b040e0d42f]文件上传成功
+2019-06-14 11:36:51 kafka_consumer.py INFO  任务[da1148365d4c45c297c71af3dbf11468]文件上传成功
+2019-06-14 11:36:51 kafka_consumer.py INFO  任务[b02ed7e6eea343d481876d20b82bfd65]文件上传成功
+2019-06-14 11:36:51 ju_xin_li.py INFO  聚信立数据爬取中
+2019-06-14 11:36:52 kafka_consumer.py INFO  任务[9f40229917da402c8f31530b2c7d15e3]文件上传成功
+2019-06-14 11:36:53 kafka_consumer.py INFO  任务[fcaad2d18b9441639e2cdb686150aeca]文件上传成功
+2019-06-14 11:36:53 kafka_consumer.py INFO  任务[f1d1434539d74d2ab3864a8d433ef5d0]文件上传成功
+2019-06-14 11:36:54 shu_ju_mo_he.py INFO  数据魔盒数据获取成功
+2019-06-14 11:36:55 ju_xin_li.py INFO  聚信立数据写入HTML
+2019-06-14 11:36:55 ju_xin_li.py INFO  C:\wkhtml\fonts
+2019-06-14 11:36:55 ju_xin_li.py INFO  C:\wkhtml\crawler_report\2019\06\14\135771\jxl
+2019-06-14 11:36:55 ju_xin_li.py INFO  创建成功
+2019-06-14 11:36:59 ju_xin_li.py INFO  聚信立pdf报告生成
+2019-06-14 11:37:01 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135771_jxl_100.pdf", "task_seq_no": "bc27f589581648ea9abf1b26f314d93f", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135771\\jxl", "doc_code": "135771", "sub_type": "juxinliRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 11:37:01 kafka_consumer.py INFO  文件上传结束
+2019-06-14 11:37:02 shu_ju_mo_he.py INFO  数据魔盒PDF生成
+2019-06-14 11:37:03 kafka_consumer.py INFO  任务[bc27f589581648ea9abf1b26f314d93f]文件上传成功
+2019-06-14 11:37:18 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135771_sjmh_100.pdf", "task_seq_no": "d94f18e0c7ed42909d207ba90d9b9c40", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135771\\sjmh", "doc_code": "135771", "sub_type": "shujumoheRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 11:37:18 kafka_consumer.py INFO  文件上传结束
+2019-06-14 11:37:24 kafka_consumer.py INFO  任务[d94f18e0c7ed42909d207ba90d9b9c40]文件上传成功
+2019-06-14 12:01:52 kafka_consumer.py DEBUG  kafka解析参数{"callback_url":"http://www.baixin.net.cn","data":{"apply_no":"135739","credit_report_list":[{"rule_no":"R0002","url":"https://report.shujumohe.com/report/TASKYYS100000201906131421530711031581/C724155208944A5C8C820B0213AB0F2C"},{"rule_no":"R0001","url":"https://dev.juxinli.com/report/#/report?token=9fdd4d65e4544f9784a585b8ec2b92d6&org=wanlong"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?isReport=true&authItem=ecommerce_credit&token=00564013190004nZQeGYWCVFTrALBHPD&appId=gxbaae9436caa5c23f8&sign=f5656eaddbe975aa2e4f07f9c3c061bb&timestamp=1560484909699"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?appId=gxbaae9436caa5c23f8&sign=f5656eaddbe975aa2e4f07f9c3c061bb&timestamp=1560484909699&token=00564013190004nZQeGYWCVFTrALBHPD"},{"rule_no":"R0004","url":"http://117.78.42.227:8080/api/report/ct91?applyNo=135739&method=91ZHENGXIN_sqr&token=216aa933-d057-4436-afae-ce8eeba43ef8"},{"rule_no":"R0003","url":"http://117.78.42.227:8080/api/report/bairong?applyNo=135739&method=BAIRONG_sqr&token=25eee0c9-8900-43bd-bd25-b13002a5d6f4"},{"rule_no":"R0006","url":"http://117.78.42.227:8080/api/report/py?applyNo=135739&method=PY_sqr&token=c87e56b5-d696-4d39-aba2-43b2de165200"},{"rule_no":"R0005","url":"http://117.78.42.227:8080/api/report/tianxing?applyNo=135739&method=TXSK_sqr&token=bfa3228c-ca9b-4b72-9671-75e6f772a913"},{"rule_no":"R0007","url":"http://117.78.42.227:8080/api/report/py2?applyNo=135739&method=PY2_po&token=b6799ea5-4bb0-40ab-85c7-a178d971178a"},{"rule_no":"R0009","url":"http://192.168.1.112:8050/cp-service/v1/contract/spb/download?contractNo=135739&sign=31769f2123c6ef6de34f47ac8743e32b"}],"id_no":"220382198605305324","name":"杨洁静","phone_no":"15998678027"},"merch_no":"100002","rule_group_no":"rule001","sign":"39ba0fb160752ad4252470c3fb008f13","task_no":"2019061412014700001"}
+2019-06-14 12:01:52 craw_route.py INFO  数据魔盒开始爬虫
+2019-06-14 12:01:52 craw_route.py INFO  数据魔盒爬虫结束
+2019-06-14 12:01:53 craw_route.py INFO  聚信立开始爬虫
+2019-06-14 12:01:53 craw_route.py INFO  聚信立爬虫结束
+2019-06-14 12:01:53 craw_route.py INFO  参数错误
+2019-06-14 12:01:53 craw_route.py INFO  91征信开始爬虫
+2019-06-14 12:01:53 craw_route.py INFO  91征信爬虫结束
+2019-06-14 12:01:53 craw_route.py INFO  百融开始爬虫
+2019-06-14 12:01:53 craw_route.py INFO  百融爬虫结束
+2019-06-14 12:01:53 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 12:01:53 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 12:01:53 craw_route.py INFO  天行数科开始爬虫
+2019-06-14 12:01:53 craw_route.py INFO  天行数科爬虫结束
+2019-06-14 12:01:53 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 12:01:53 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 12:01:53 craw_route.py INFO  业务审批表开始爬虫
+2019-06-14 12:01:53 craw_route.py INFO  业务审批表爬虫结束
+2019-06-14 12:01:53 bx_spb.py INFO  file write success!
+2019-06-14 12:01:53 bx_spb.py INFO  success
+2019-06-14 12:01:55 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135739_spb_100.pdf", "task_seq_no": "16db4e1f2ad442deba16e5a72a698383", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135739\\spb", "doc_code": "135739", "sub_type": "approveRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:01:55 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:01:56 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135739_91_100.pdf", "task_seq_no": "d35ca08496ad445d926f3b2c50baf205", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135739\\91", "doc_code": "135739", "sub_type": "91CreditRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:01:56 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:01:56 kafka_consumer.py INFO  任务[16db4e1f2ad442deba16e5a72a698383]文件上传成功
+2019-06-14 12:01:56 kafka_consumer.py INFO  任务[d35ca08496ad445d926f3b2c50baf205]文件上传成功
+2019-06-14 12:01:57 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135739_py_card_auth_100.pdf", "task_seq_no": "2b19564d64f04be09c05491ad69e937a", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135739\\py", "doc_code": "135739", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:01:57 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:01:57 kafka_consumer.py INFO  任务[2b19564d64f04be09c05491ad69e937a]文件上传成功
+2019-06-14 12:01:57 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135739_bairong_100.pdf", "task_seq_no": "6d929510b99d4b0abb9709ec6bc86c00", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135739\\bairong", "doc_code": "135739", "sub_type": "bairongRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:01:57 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:01:57 kafka_consumer.py INFO  任务[6d929510b99d4b0abb9709ec6bc86c00]文件上传成功
+2019-06-14 12:01:57 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135739_txsk_100.pdf", "task_seq_no": "6e66720d2a29468ebc53ebfd28f03c5c", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135739\\txsk", "doc_code": "135739", "sub_type": "tianxingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:01:57 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:01:57 kafka_consumer.py INFO  任务[6e66720d2a29468ebc53ebfd28f03c5c]文件上传成功
+2019-06-14 12:01:58 ju_xin_li.py INFO  聚信立数据爬取中
+2019-06-14 12:01:58 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135739_py_100.pdf", "task_seq_no": "ff5ee0546e344a93ab2bc820b0a020bf", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135739\\py", "doc_code": "135739", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:01:58 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:01:58 kafka_consumer.py INFO  任务[ff5ee0546e344a93ab2bc820b0a020bf]文件上传成功
+2019-06-14 12:02:00 shu_ju_mo_he.py INFO  数据魔盒数据获取成功
+2019-06-14 12:02:01 ju_xin_li.py INFO  聚信立数据写入HTML
+2019-06-14 12:02:01 ju_xin_li.py INFO  C:\wkhtml\fonts
+2019-06-14 12:02:01 ju_xin_li.py INFO  C:\wkhtml\crawler_report\2019\06\14\135739\jxl
+2019-06-14 12:02:01 ju_xin_li.py INFO  创建成功
+2019-06-14 12:02:02 ju_xin_li.py INFO  聚信立pdf报告生成
+2019-06-14 12:02:04 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135739_jxl_100.pdf", "task_seq_no": "b7decf4edfc944aa967d944976c62bd2", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135739\\jxl", "doc_code": "135739", "sub_type": "juxinliRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:02:04 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:02:06 kafka_consumer.py INFO  任务[b7decf4edfc944aa967d944976c62bd2]文件上传成功
+2019-06-14 12:02:08 shu_ju_mo_he.py INFO  数据魔盒PDF生成
+2019-06-14 12:02:09 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135739_sjmh_100.pdf", "task_seq_no": "c25977e4a46b40ef82303461e8e59bdb", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135739\\sjmh", "doc_code": "135739", "sub_type": "shujumoheRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:02:09 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:02:13 kafka_consumer.py INFO  任务[c25977e4a46b40ef82303461e8e59bdb]文件上传成功
+2019-06-14 12:12:50 kafka_consumer.py DEBUG  kafka解析参数{"callback_url":"http://www.baixin.net.cn","data":{"apply_no":"BC135764","credit_report_list":[{"rule_no":"R0002","url":"https://report.shujumohe.com/report/TASKYYS100000201906131744520700792786/C724155208944A5C8C820B0213AB0F2C"},{"rule_no":"R0001","url":"https://dev.juxinli.com/report/#/report?token=fb85b515296f4d5286e65b4daf9cb105&org=GELS"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?isReport=true&authItem=ecommerce_credit&token=0056401319000jPaAxQgt02o9MJJrGnZ&appId=gxbaae9436caa5c23f8&sign=e5b32be64f03765b6a797751fec7efb9&timestamp=1560485566754"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?appId=gxbaae9436caa5c23f8&sign=e5b32be64f03765b6a797751fec7efb9&timestamp=1560485566754&token=0056401319000jPaAxQgt02o9MJJrGnZ"},{"rule_no":"R0004","url":"http://117.78.42.227:8080/api/report/ct91?applyNo=BC135764&method=91ZHENGXIN_sqr&token=ba443fd4-bacb-4103-b738-96c5fb70b411"},{"rule_no":"R0003","url":"http://117.78.42.227:8080/api/report/bairong?applyNo=BC135764&method=BAIRONG_sqr&token=982b69c5-5a5d-4cea-b4be-5b4faa101628"},{"rule_no":"R0006","url":"http://117.78.42.227:8080/api/report/py?applyNo=BC135764&method=PY_sqr&token=f42f302c-e067-4f80-8ed2-160bafeeb865"},{"rule_no":"R0005","url":"http://117.78.42.227:8080/api/report/tianxing?applyNo=BC135764&method=TXSK_sqr&token=f5600da6-aabe-4705-aac2-a109a78b891b"},{"rule_no":"R0007","url":"http://117.78.42.227:8080/api/report/py2?applyNo=BC135764&method=PY2_po&token=6925ea49-6099-4bef-90a3-ba8f7d7af649"},{"rule_no":"R0009","url":"http://192.168.1.112:8050/cp-service/v1/contract/spb/download?contractNo=BC135764&sign=c868fd9a339557c434f7b08e7f9077f4"}],"id_no":"452622197906080069","name":"黄葵","phone_no":"18688856978"},"merch_no":"100002","rule_group_no":"rule001","sign":"a0c6412a597f58e941a967295e9c05d7","task_no":"2019061412124400001"}
+2019-06-14 12:12:50 craw_route.py INFO  数据魔盒开始爬虫
+2019-06-14 12:12:50 craw_route.py INFO  数据魔盒爬虫结束
+2019-06-14 12:12:50 craw_route.py INFO  聚信立开始爬虫
+2019-06-14 12:12:50 craw_route.py INFO  聚信立爬虫结束
+2019-06-14 12:12:50 craw_route.py INFO  参数错误
+2019-06-14 12:12:50 craw_route.py INFO  91征信开始爬虫
+2019-06-14 12:12:50 craw_route.py INFO  91征信爬虫结束
+2019-06-14 12:12:50 craw_route.py INFO  百融开始爬虫
+2019-06-14 12:12:50 craw_route.py INFO  百融爬虫结束
+2019-06-14 12:12:50 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 12:12:50 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 12:12:50 craw_route.py INFO  天行数科开始爬虫
+2019-06-14 12:12:50 craw_route.py INFO  天行数科爬虫结束
+2019-06-14 12:12:50 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 12:12:50 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 12:12:50 craw_route.py INFO  业务审批表开始爬虫
+2019-06-14 12:12:50 craw_route.py INFO  业务审批表爬虫结束
+2019-06-14 12:12:50 bx_spb.py INFO  file write success!
+2019-06-14 12:12:50 bx_spb.py INFO  success
+2019-06-14 12:12:52 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135764_spb_100.pdf", "task_seq_no": "80d7226596af476b989800cc58e0e521", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135764\\spb", "doc_code": "BC135764", "sub_type": "approveRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:12:52 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:12:53 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135764_py_100.pdf", "task_seq_no": "87f986eb561142a6a4e0fb75a3dc9abd", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135764\\py", "doc_code": "BC135764", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:12:53 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:12:53 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135764_py_card_auth_100.pdf", "task_seq_no": "19eaa09d65f843d58d997ee9daf00fd2", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135764\\py", "doc_code": "BC135764", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:12:53 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:12:53 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135764_91_100.pdf", "task_seq_no": "e8d47e972bfd42248caba22025bbead0", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135764\\91", "doc_code": "BC135764", "sub_type": "91CreditRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:12:53 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:12:54 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135764_bairong_100.pdf", "task_seq_no": "f784d8d82bc443f59945c2c59c0ee353", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135764\\bairong", "doc_code": "BC135764", "sub_type": "bairongRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:12:54 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:12:54 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135764_txsk_100.pdf", "task_seq_no": "47394bcb62864358b1ea82c2695b85fd", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135764\\txsk", "doc_code": "BC135764", "sub_type": "tianxingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:12:54 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:12:54 kafka_consumer.py INFO  任务[f784d8d82bc443f59945c2c59c0ee353]文件上传成功
+2019-06-14 12:12:54 kafka_consumer.py INFO  任务[47394bcb62864358b1ea82c2695b85fd]文件上传成功
+2019-06-14 12:12:55 kafka_consumer.py INFO  任务[80d7226596af476b989800cc58e0e521]文件上传成功
+2019-06-14 12:12:55 ju_xin_li.py INFO  聚信立数据爬取中
+2019-06-14 12:12:56 kafka_consumer.py INFO  任务[87f986eb561142a6a4e0fb75a3dc9abd]文件上传成功
+2019-06-14 12:12:56 kafka_consumer.py INFO  任务[19eaa09d65f843d58d997ee9daf00fd2]文件上传成功
+2019-06-14 12:12:57 kafka_consumer.py INFO  任务[e8d47e972bfd42248caba22025bbead0]文件上传成功
+2019-06-14 12:12:59 shu_ju_mo_he.py INFO  数据魔盒数据获取成功
+2019-06-14 12:13:00 ju_xin_li.py INFO  聚信立数据写入HTML
+2019-06-14 12:13:01 ju_xin_li.py INFO  C:\wkhtml\fonts
+2019-06-14 12:13:01 ju_xin_li.py INFO  C:\wkhtml\crawler_report\2019\06\14\BC135764\jxl
+2019-06-14 12:13:01 ju_xin_li.py INFO  创建成功
+2019-06-14 12:13:09 shu_ju_mo_he.py INFO  数据魔盒PDF生成
+2019-06-14 12:13:10 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135764_sjmh_100.pdf", "task_seq_no": "7fcd249e8127410980ca4bc9e1127a45", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135764\\sjmh", "doc_code": "BC135764", "sub_type": "shujumoheRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:13:10 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:13:13 ju_xin_li.py INFO  聚信立pdf报告生成
+2019-06-14 12:13:14 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135764_jxl_100.pdf", "task_seq_no": "f7fce4814caf4436b57c5cc2a9dbe81e", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135764\\jxl", "doc_code": "BC135764", "sub_type": "juxinliRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:13:14 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:13:17 kafka_consumer.py INFO  任务[f7fce4814caf4436b57c5cc2a9dbe81e]文件上传成功
+2019-06-14 12:13:18 kafka_consumer.py INFO  任务[7fcd249e8127410980ca4bc9e1127a45]文件上传成功
+2019-06-14 12:21:40 kafka_consumer.py DEBUG  kafka解析参数{"callback_url":"http://www.baixin.net.cn","data":{"apply_no":"BC135706","credit_report_list":[{"rule_no":"R0002","url":"https://report.shujumohe.com/report/TASKYYS100000201906121733500510152262/C724155208944A5C8C820B0213AB0F2C"},{"rule_no":"R0001","url":"https://dev.juxinli.com/report/#/report?token=6eb0ce2644124b5782bd055012ab2e8b&org=GELS"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?isReport=true&authItem=ecommerce_credit&token=0056401319000fjJMJyfrXepYNRo0n6L&appId=gxbaae9436caa5c23f8&sign=8bbb8fb2f95aaf15267ef31a28687a77&timestamp=1560486096758"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?appId=gxbaae9436caa5c23f8&sign=8bbb8fb2f95aaf15267ef31a28687a77&timestamp=1560486096758&token=0056401319000fjJMJyfrXepYNRo0n6L"},{"rule_no":"R0004","url":"http://117.78.42.227:8080/api/report/ct91?applyNo=BC135706&method=91ZHENGXIN_sqr&token=db1a5394-944a-4ed7-980c-cbd03abc667d"},{"rule_no":"R0003","url":"http://117.78.42.227:8080/api/report/bairong?applyNo=BC135706&method=BAIRONG_sqr&token=07c6c0d4-5306-4c18-ba18-ffc73083b64a"},{"rule_no":"R0006","url":"http://117.78.42.227:8080/api/report/py?applyNo=BC135706&method=PY_sqr&token=dcfe5dd7-3e44-42ff-8ff9-396dc797d86a"},{"rule_no":"R0005","url":"http://117.78.42.227:8080/api/report/tianxing?applyNo=BC135706&method=TXSK_sqr&token=90c248ca-10d1-4d21-9645-f091c8ba7b83"},{"rule_no":"R0007","url":"http://117.78.42.227:8080/api/report/py2?applyNo=BC135706&method=PY2_po&token=fed7f492-9733-4768-91ec-1cd4e0005d23"},{"rule_no":"R0009","url":"http://192.168.1.112:8050/cp-service/v1/contract/spb/download?contractNo=BC135706&sign=582a549458e640c823c3e1b3ea240c5c"}],"id_no":"411423197401044019","name":"黄鑫","phone_no":"13174893921"},"merch_no":"100002","rule_group_no":"rule001","sign":"340aff0751b1dad3ae4030f902afbd66","task_no":"2019061412213400004"}
+2019-06-14 12:21:40 craw_route.py INFO  数据魔盒开始爬虫
+2019-06-14 12:21:40 craw_route.py INFO  数据魔盒爬虫结束
+2019-06-14 12:21:40 craw_route.py INFO  聚信立开始爬虫
+2019-06-14 12:21:40 craw_route.py INFO  聚信立爬虫结束
+2019-06-14 12:21:40 craw_route.py INFO  参数错误
+2019-06-14 12:21:40 craw_route.py INFO  91征信开始爬虫
+2019-06-14 12:21:40 craw_route.py INFO  91征信爬虫结束
+2019-06-14 12:21:40 craw_route.py INFO  百融开始爬虫
+2019-06-14 12:21:40 craw_route.py INFO  百融爬虫结束
+2019-06-14 12:21:40 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 12:21:40 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 12:21:40 craw_route.py INFO  天行数科开始爬虫
+2019-06-14 12:21:40 craw_route.py INFO  天行数科爬虫结束
+2019-06-14 12:21:40 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 12:21:40 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 12:21:40 craw_route.py INFO  业务审批表开始爬虫
+2019-06-14 12:21:40 craw_route.py INFO  业务审批表爬虫结束
+2019-06-14 12:21:41 bx_spb.py INFO  file write success!
+2019-06-14 12:21:41 bx_spb.py INFO  success
+2019-06-14 12:21:42 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135706_spb_100.pdf", "task_seq_no": "4ad35f897c53489baaa205ab2da77403", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135706\\spb", "doc_code": "BC135706", "sub_type": "approveRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:21:42 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:21:43 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135706_py_100.pdf", "task_seq_no": "8027bfa1f1c0492b8f8e4e0408ca9972", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135706\\py", "doc_code": "BC135706", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:21:43 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:21:44 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135706_py_card_auth_100.pdf", "task_seq_no": "ced66000bba54441a3d9527586ec7b1e", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135706\\py", "doc_code": "BC135706", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:21:44 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:21:44 kafka_consumer.py INFO  任务[ced66000bba54441a3d9527586ec7b1e]文件上传成功
+2019-06-14 12:21:44 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135706_91_100.pdf", "task_seq_no": "484ecf3645f54b649ff1817d305ab813", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135706\\91", "doc_code": "BC135706", "sub_type": "91CreditRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:21:44 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:21:44 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135706_bairong_100.pdf", "task_seq_no": "c669c4f943b947bcaebafae494ff2d4e", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135706\\bairong", "doc_code": "BC135706", "sub_type": "bairongRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:21:44 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:21:44 kafka_consumer.py INFO  任务[484ecf3645f54b649ff1817d305ab813]文件上传成功
+2019-06-14 12:21:45 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135706_txsk_100.pdf", "task_seq_no": "d4877c4737c24e5bb6ccb8fc677fe489", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135706\\txsk", "doc_code": "BC135706", "sub_type": "tianxingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:21:45 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:21:45 kafka_consumer.py INFO  任务[c669c4f943b947bcaebafae494ff2d4e]文件上传成功
+2019-06-14 12:21:45 kafka_consumer.py INFO  任务[4ad35f897c53489baaa205ab2da77403]文件上传成功
+2019-06-14 12:21:45 kafka_consumer.py INFO  任务[d4877c4737c24e5bb6ccb8fc677fe489]文件上传成功
+2019-06-14 12:21:45 ju_xin_li.py INFO  聚信立数据爬取中
+2019-06-14 12:21:47 kafka_consumer.py INFO  任务[8027bfa1f1c0492b8f8e4e0408ca9972]文件上传成功
+2019-06-14 12:21:47 shu_ju_mo_he.py INFO  数据魔盒数据获取成功
+2019-06-14 12:21:48 ju_xin_li.py INFO  聚信立数据写入HTML
+2019-06-14 12:21:49 ju_xin_li.py INFO  C:\wkhtml\fonts
+2019-06-14 12:21:49 ju_xin_li.py INFO  C:\wkhtml\crawler_report\2019\06\14\BC135706\jxl
+2019-06-14 12:21:49 ju_xin_li.py INFO  创建成功
+2019-06-14 12:21:52 ju_xin_li.py INFO  聚信立pdf报告生成
+2019-06-14 12:21:53 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135706_jxl_100.pdf", "task_seq_no": "2ef5e1b330064602b5a03800295d9526", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135706\\jxl", "doc_code": "BC135706", "sub_type": "juxinliRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:21:53 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:21:57 kafka_consumer.py INFO  任务[2ef5e1b330064602b5a03800295d9526]文件上传成功
+2019-06-14 12:21:57 shu_ju_mo_he.py INFO  数据魔盒PDF生成
+2019-06-14 12:21:59 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135706_sjmh_100.pdf", "task_seq_no": "9343f88861e34f0798bc5f7a1b902c25", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135706\\sjmh", "doc_code": "BC135706", "sub_type": "shujumoheRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:21:59 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:22:02 kafka_consumer.py INFO  任务[9343f88861e34f0798bc5f7a1b902c25]文件上传成功
+2019-06-14 12:23:19 kafka_consumer.py DEBUG  kafka解析参数{"callback_url":"http://www.baixin.net.cn","data":{"apply_no":"135775","credit_report_list":[{"rule_no":"R0002","url":"https://report.shujumohe.com/report/TASKYYS100000201906141126070681102055/C724155208944A5C8C820B0213AB0F2C"},{"rule_no":"R0001","url":"https://dev.juxinli.com/report/#/report?token=952887e9afd346eab5ced54fdefb5d5c&org=GELS"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?isReport=true&authItem=ecommerce_credit&token=0056401319000mQvk9jOzDHhvGwllRZ9&appId=gxbaae9436caa5c23f8&sign=9930bb8c568488a45933feeac30c2870&timestamp=1560486195840"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?appId=gxbaae9436caa5c23f8&sign=9930bb8c568488a45933feeac30c2870&timestamp=1560486195840&token=0056401319000mQvk9jOzDHhvGwllRZ9"},{"rule_no":"R0004","url":"http://117.78.42.227:8080/api/report/ct91?applyNo=135775&method=91ZHENGXIN_sqr&token=b394efb7-773a-435a-b262-0b37f0753a36"},{"rule_no":"R0003","url":"http://117.78.42.227:8080/api/report/bairong?applyNo=135775&method=BAIRONG_sqr&token=ed986b45-2dd2-4296-8559-0f6c14fbfb90"},{"rule_no":"R0005","url":"http://117.78.42.227:8080/api/report/tianxing?applyNo=135775&method=TXSK_sqr&token=d37a97ac-1fb8-4771-844e-5f71e32bf51a"},{"rule_no":"R0007","url":"http://117.78.42.227:8080/api/report/py2?applyNo=135775&method=PY2_po&token=688be6e2-ebd5-4857-b3ef-ac2143cef465"},{"rule_no":"R0009","url":"http://192.168.1.112:8050/cp-service/v1/contract/spb/download?contractNo=135775&sign=79d711efde9d3bed17e6e6c0efcf9667"}],"id_no":"211004196201260013","name":"赵杰","phone_no":"13604190788"},"merch_no":"100002","rule_group_no":"rule001","sign":"21f6beecd81375c73fa9849a4cc7f29e","task_no":"2019061412231300001"}
+2019-06-14 12:23:19 craw_route.py INFO  数据魔盒开始爬虫
+2019-06-14 12:23:19 craw_route.py INFO  数据魔盒爬虫结束
+2019-06-14 12:23:19 craw_route.py INFO  聚信立开始爬虫
+2019-06-14 12:23:19 craw_route.py INFO  聚信立爬虫结束
+2019-06-14 12:23:19 craw_route.py INFO  参数错误
+2019-06-14 12:23:19 craw_route.py INFO  91征信开始爬虫
+2019-06-14 12:23:19 craw_route.py INFO  91征信爬虫结束
+2019-06-14 12:23:19 craw_route.py INFO  百融开始爬虫
+2019-06-14 12:23:19 craw_route.py INFO  百融爬虫结束
+2019-06-14 12:23:19 craw_route.py INFO  天行数科开始爬虫
+2019-06-14 12:23:19 craw_route.py INFO  天行数科爬虫结束
+2019-06-14 12:23:19 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 12:23:19 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 12:23:20 craw_route.py INFO  业务审批表开始爬虫
+2019-06-14 12:23:20 craw_route.py INFO  业务审批表爬虫结束
+2019-06-14 12:23:20 bx_spb.py INFO  file write success!
+2019-06-14 12:23:20 bx_spb.py INFO  success
+2019-06-14 12:23:21 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135775_spb_100.pdf", "task_seq_no": "8f687106f6aa450389aab9f1e00d5f98", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135775\\spb", "doc_code": "135775", "sub_type": "approveRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:23:21 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:23:22 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135775_91_100.pdf", "task_seq_no": "1c526efb298749f88b6de8658cd14d5a", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135775\\91", "doc_code": "135775", "sub_type": "91CreditRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:23:22 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:23:22 kafka_consumer.py INFO  任务[8f687106f6aa450389aab9f1e00d5f98]文件上传成功
+2019-06-14 12:23:22 kafka_consumer.py INFO  任务[1c526efb298749f88b6de8658cd14d5a]文件上传成功
+2019-06-14 12:23:23 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135775_py_card_auth_100.pdf", "task_seq_no": "31caccb93c7c44a49e928c8962b1fb35", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135775\\py", "doc_code": "135775", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:23:23 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:23:23 kafka_consumer.py INFO  任务[31caccb93c7c44a49e928c8962b1fb35]文件上传成功
+2019-06-14 12:23:23 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135775_bairong_100.pdf", "task_seq_no": "b45b51d8cef4489e9eac234687c47fe5", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135775\\bairong", "doc_code": "135775", "sub_type": "bairongRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:23:23 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:23:23 kafka_consumer.py INFO  任务[b45b51d8cef4489e9eac234687c47fe5]文件上传成功
+2019-06-14 12:23:25 ju_xin_li.py INFO  聚信立数据爬取中
+2019-06-14 12:23:27 shu_ju_mo_he.py INFO  数据魔盒数据获取成功
+2019-06-14 12:23:27 ju_xin_li.py INFO  聚信立数据写入HTML
+2019-06-14 12:23:28 ju_xin_li.py INFO  C:\wkhtml\fonts
+2019-06-14 12:23:28 ju_xin_li.py INFO  C:\wkhtml\crawler_report\2019\06\14\135775\jxl
+2019-06-14 12:23:28 ju_xin_li.py INFO  创建成功
+2019-06-14 12:23:31 ju_xin_li.py INFO  聚信立pdf报告生成
+2019-06-14 12:23:32 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135775_jxl_100.pdf", "task_seq_no": "3c20c0bf791a42058b234ea676cc937f", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135775\\jxl", "doc_code": "135775", "sub_type": "juxinliRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:23:32 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:23:34 kafka_consumer.py INFO  任务[3c20c0bf791a42058b234ea676cc937f]文件上传成功
+2019-06-14 12:24:05 shu_ju_mo_he.py INFO  数据魔盒PDF生成
+2019-06-14 12:24:06 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135775_sjmh_100.pdf", "task_seq_no": "ea47144ba5e24c5fa4b565ede6bb975e", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135775\\sjmh", "doc_code": "135775", "sub_type": "shujumoheRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:24:06 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:24:06 kafka_consumer.py DEBUG  kafka解析参数{"craw_repetition": {"re_upload_count": 0, "task_seq_no": "28f907abfd3145dc8967c0a5b244fea8"}, "merch_no": "100000", "callback_url": "http://www.baixin.net.cn/a/b/", "sign": "039e5d6c2fa5dcd5e243352ae639de35", "data": {"credit_report_list": [{"rule_no": "R0005", "url": "http://117.78.42.227:8080/api/report/tianxing?applyNo=135775&method=TXSK_sqr&token=d37a97ac-1fb8-4771-844e-5f71e32bf51a"}], "name": "\u8d75\u6770", "apply_no": "135775", "id_no": "211004196201260013", "phone_no": "13604190788"}, "task_no": "20190614122406", "rule_group_no": "rule001"}
+2019-06-14 12:24:06 kafka_consumer.py INFO  重爬机制触发
+2019-06-14 12:24:06 craw_route.py INFO  天行数科开始爬虫
+2019-06-14 12:24:06 craw_route.py INFO  天行数科爬虫结束
+2019-06-14 12:24:10 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135775_txsk_101.pdf", "task_seq_no": "28f907abfd3145dc8967c0a5b244fea8", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135775\\txsk", "doc_code": "135775", "sub_type": "tianxingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:24:10 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:24:10 kafka_consumer.py INFO  任务[28f907abfd3145dc8967c0a5b244fea8]文件上传成功
+2019-06-14 12:24:13 kafka_consumer.py INFO  任务[ea47144ba5e24c5fa4b565ede6bb975e]文件上传成功
+2019-06-14 12:27:26 kafka_consumer.py DEBUG  kafka解析参数{"callback_url":"http://www.baixin.net.cn","data":{"apply_no":"BC135783","credit_report_list":[{"rule_no":"R0002","url":"https://report.shujumohe.com/report/TASKYYS100000201906141146080500163709/C724155208944A5C8C820B0213AB0F2C"},{"rule_no":"R0001","url":"https://dev.juxinli.com/report/#/report?token=633d17aeef1b407eba2d88caa97c0c33&org=GELS"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?isReport=true&authItem=ecommerce_credit&token=0056401319000JLHJqa1H86ZaD2lxH5Z&appId=gxbaae9436caa5c23f8&sign=f5d263798eacafad6ecbc738ccfcbf32&timestamp=1560486443143"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?appId=gxbaae9436caa5c23f8&sign=f5d263798eacafad6ecbc738ccfcbf32&timestamp=1560486443143&token=0056401319000JLHJqa1H86ZaD2lxH5Z"},{"rule_no":"R0004","url":"http://117.78.42.227:8080/api/report/ct91?applyNo=BC135783&method=91ZHENGXIN_sqr&token=06b9da5c-d863-4ed0-8ce3-940a16465b3b"},{"rule_no":"R0003","url":"http://117.78.42.227:8080/api/report/bairong?applyNo=BC135783&method=BAIRONG_sqr&token=533af2bd-926a-4b6e-8155-058e8502eabb"},{"rule_no":"R0006","url":"http://117.78.42.227:8080/api/report/py?applyNo=BC135783&method=PY_sqr&token=b0e4c537-2782-476d-87ee-db086dc31156"},{"rule_no":"R0005","url":"http://117.78.42.227:8080/api/report/tianxing?applyNo=BC135783&method=TXSK_sqr&token=26099773-84fe-49fb-aeb4-852e8e3941e1"},{"rule_no":"R0007","url":"http://117.78.42.227:8080/api/report/py2?applyNo=BC135783&method=PY2_zxqs&token=213a262f-345d-46ee-97e4-15106a10ad40"},{"rule_no":"R0009","url":"http://192.168.1.112:8050/cp-service/v1/contract/spb/download?contractNo=BC135783&sign=1c108ba9c06d5273a2ea938be93f2c06"}],"id_no":"360424199109022314","name":"匡文超","phone_no":"18296249563"},"merch_no":"100002","rule_group_no":"rule001","sign":"5e6f0b04402eb3b6947084002a5c358c","task_no":"2019061412272000001"}
+2019-06-14 12:27:26 craw_route.py INFO  数据魔盒开始爬虫
+2019-06-14 12:27:26 craw_route.py INFO  数据魔盒爬虫结束
+2019-06-14 12:27:26 craw_route.py INFO  聚信立开始爬虫
+2019-06-14 12:27:26 craw_route.py INFO  聚信立爬虫结束
+2019-06-14 12:27:26 craw_route.py INFO  参数错误
+2019-06-14 12:27:26 craw_route.py INFO  91征信开始爬虫
+2019-06-14 12:27:26 craw_route.py INFO  91征信爬虫结束
+2019-06-14 12:27:26 craw_route.py INFO  百融开始爬虫
+2019-06-14 12:27:26 craw_route.py INFO  百融爬虫结束
+2019-06-14 12:27:27 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 12:27:27 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 12:27:27 craw_route.py INFO  天行数科开始爬虫
+2019-06-14 12:27:27 craw_route.py INFO  天行数科爬虫结束
+2019-06-14 12:27:27 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 12:27:27 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 12:27:27 craw_route.py INFO  业务审批表开始爬虫
+2019-06-14 12:27:27 craw_route.py INFO  业务审批表爬虫结束
+2019-06-14 12:27:27 bx_spb.py INFO  file write success!
+2019-06-14 12:27:27 bx_spb.py INFO  success
+2019-06-14 12:27:28 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135783_spb_100.pdf", "task_seq_no": "4825aa80d74d44968b87217ea93a089e", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135783\\spb", "doc_code": "BC135783", "sub_type": "approveRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:27:28 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:27:29 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135783_91_100.pdf", "task_seq_no": "7aff91ab64d5401dafe6297a5ee8a302", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135783\\91", "doc_code": "BC135783", "sub_type": "91CreditRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:27:29 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:27:30 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135783_py_100.pdf", "task_seq_no": "f56b66e062a7434db56ff98ff29b845f", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135783\\py", "doc_code": "BC135783", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:27:30 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:27:30 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135783_py_card_auth_100.pdf", "task_seq_no": "d91a573127274a73a9251a754c2f18ef", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135783\\py", "doc_code": "BC135783", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:27:30 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:27:30 kafka_consumer.py INFO  任务[f56b66e062a7434db56ff98ff29b845f]文件上传成功
+2019-06-14 12:27:30 kafka_consumer.py INFO  任务[7aff91ab64d5401dafe6297a5ee8a302]文件上传成功
+2019-06-14 12:27:30 kafka_consumer.py INFO  任务[d91a573127274a73a9251a754c2f18ef]文件上传成功
+2019-06-14 12:27:30 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135783_bairong_100.pdf", "task_seq_no": "c0d236f0b12642fc872eb88db5a61084", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135783\\bairong", "doc_code": "BC135783", "sub_type": "bairongRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:27:30 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:27:31 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135783_txsk_100.pdf", "task_seq_no": "510bc31e757847a78c59d6241dd09f12", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135783\\txsk", "doc_code": "BC135783", "sub_type": "tianxingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:27:31 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:27:31 kafka_consumer.py INFO  任务[510bc31e757847a78c59d6241dd09f12]文件上传成功
+2019-06-14 12:27:31 kafka_consumer.py INFO  任务[4825aa80d74d44968b87217ea93a089e]文件上传成功
+2019-06-14 12:27:31 kafka_consumer.py INFO  任务[c0d236f0b12642fc872eb88db5a61084]文件上传成功
+2019-06-14 12:27:32 ju_xin_li.py INFO  聚信立数据爬取中
+2019-06-14 12:27:34 shu_ju_mo_he.py INFO  数据魔盒数据获取成功
+2019-06-14 12:27:35 ju_xin_li.py INFO  聚信立数据写入HTML
+2019-06-14 12:27:36 ju_xin_li.py INFO  C:\wkhtml\fonts
+2019-06-14 12:27:36 ju_xin_li.py INFO  C:\wkhtml\crawler_report\2019\06\14\BC135783\jxl
+2019-06-14 12:27:36 ju_xin_li.py INFO  创建成功
+2019-06-14 12:27:39 ju_xin_li.py INFO  聚信立pdf报告生成
+2019-06-14 12:27:40 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135783_jxl_100.pdf", "task_seq_no": "5fd5f9619ce54e50a11f7b8feb899d06", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135783\\jxl", "doc_code": "BC135783", "sub_type": "juxinliRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:27:40 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:27:42 kafka_consumer.py INFO  任务[5fd5f9619ce54e50a11f7b8feb899d06]文件上传成功
+2019-06-14 12:27:44 shu_ju_mo_he.py INFO  数据魔盒PDF生成
+2019-06-14 12:27:45 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135783_sjmh_100.pdf", "task_seq_no": "6d138f4c656d42a8b7f83423f0521f22", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135783\\sjmh", "doc_code": "BC135783", "sub_type": "shujumoheRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 12:27:45 kafka_consumer.py INFO  文件上传结束
+2019-06-14 12:27:52 kafka_consumer.py INFO  任务[6d138f4c656d42a8b7f83423f0521f22]文件上传成功
+2019-06-14 13:04:29 kafka_consumer.py DEBUG  kafka解析参数{"callback_url":"http://www.baixin.net.cn","data":{"apply_no":"BC135786","credit_report_list":[{"rule_no":"R0002","url":"https://report.shujumohe.com/report/TASKYYS100000201906141210440661530822/C724155208944A5C8C820B0213AB0F2C"},{"rule_no":"R0001","url":"https://dev.juxinli.com/report/#/report?token=dd02bd9bcb9a4f88bfbe49cdc3a12557&org=GELS"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?isReport=true&authItem=ecommerce_credit&token=0056401319000OPOsXUKjVVnnIY83UkY&appId=gxbaae9436caa5c23f8&sign=24aa2e504a3d293a23ae5f33548c7040&timestamp=1560488666107"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?appId=gxbaae9436caa5c23f8&sign=24aa2e504a3d293a23ae5f33548c7040&timestamp=1560488666107&token=0056401319000OPOsXUKjVVnnIY83UkY"},{"rule_no":"R0004","url":"http://117.78.42.227:8080/api/report/ct91?applyNo=BC135786&method=91ZHENGXIN_sqr&token=c774b61a-3af9-4370-85f0-2796786d38eb"},{"rule_no":"R0003","url":"http://117.78.42.227:8080/api/report/bairong?applyNo=BC135786&method=BAIRONG_sqr&token=84feb4df-721d-41fc-b751-364969d84499"},{"rule_no":"R0006","url":"http://117.78.42.227:8080/api/report/py?applyNo=BC135786&method=PY_sqr&token=dcf053d0-58d7-4139-9b9a-0459a7bfa425"},{"rule_no":"R0005","url":"http://117.78.42.227:8080/api/report/tianxing?applyNo=BC135786&method=TXSK_sqr&token=2febdc1c-3664-434d-bcd2-6ef035186215"},{"rule_no":"R0007","url":"http://117.78.42.227:8080/api/report/py2?applyNo=BC135786&method=PY2_po&token=bf39e770-f6cb-41fd-9436-e9baaa31aca9"},{"rule_no":"R0009","url":"http://192.168.1.112:8050/cp-service/v1/contract/spb/download?contractNo=BC135786&sign=04980118adec884caa04348fb80c094e"}],"id_no":"440421196705250038","name":"曾泽华","phone_no":"13824414648"},"merch_no":"100002","rule_group_no":"rule001","sign":"5f6184c0324465ab47f771d342daf9aa","task_no":"2019061413042300001"}
+2019-06-14 13:04:29 craw_route.py INFO  数据魔盒开始爬虫
+2019-06-14 13:04:29 craw_route.py INFO  数据魔盒爬虫结束
+2019-06-14 13:04:29 craw_route.py INFO  聚信立开始爬虫
+2019-06-14 13:04:29 craw_route.py INFO  聚信立爬虫结束
+2019-06-14 13:04:30 craw_route.py INFO  参数错误
+2019-06-14 13:04:30 craw_route.py INFO  91征信开始爬虫
+2019-06-14 13:04:30 craw_route.py INFO  91征信爬虫结束
+2019-06-14 13:04:30 craw_route.py INFO  百融开始爬虫
+2019-06-14 13:04:30 craw_route.py INFO  百融爬虫结束
+2019-06-14 13:04:30 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 13:04:30 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 13:04:30 craw_route.py INFO  天行数科开始爬虫
+2019-06-14 13:04:30 craw_route.py INFO  天行数科爬虫结束
+2019-06-14 13:04:30 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 13:04:30 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 13:04:30 craw_route.py INFO  业务审批表开始爬虫
+2019-06-14 13:04:30 craw_route.py INFO  业务审批表爬虫结束
+2019-06-14 13:04:30 bx_spb.py INFO  file write success!
+2019-06-14 13:04:30 bx_spb.py INFO  success
+2019-06-14 13:04:32 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135786_spb_100.pdf", "task_seq_no": "b08bef9bb6754d9096c3738b08e32668", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135786\\spb", "doc_code": "BC135786", "sub_type": "approveRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:04:32 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:04:32 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135786_91_100.pdf", "task_seq_no": "d314b3023ecc4bacb9fb40dfb3a5ba0c", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135786\\91", "doc_code": "BC135786", "sub_type": "91CreditRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:04:32 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:04:33 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135786_py_card_auth_100.pdf", "task_seq_no": "566dfb7c172c45b4a1b1cebcc6454138", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135786\\py", "doc_code": "BC135786", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:04:33 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:04:33 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135786_py_100.pdf", "task_seq_no": "b7d3cd87c966436b8965684a46d41e30", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135786\\py", "doc_code": "BC135786", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:04:33 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:04:33 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135786_bairong_100.pdf", "task_seq_no": "4850d4e4c5d143fcb24ba3ff6ad3c206", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135786\\bairong", "doc_code": "BC135786", "sub_type": "bairongRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:04:33 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:04:34 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135786_txsk_100.pdf", "task_seq_no": "4a79bf4946c54144ac1ff67679514c12", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135786\\txsk", "doc_code": "BC135786", "sub_type": "tianxingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:04:34 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:04:34 kafka_consumer.py INFO  任务[b7d3cd87c966436b8965684a46d41e30]文件上传成功
+2019-06-14 13:04:34 kafka_consumer.py INFO  任务[566dfb7c172c45b4a1b1cebcc6454138]文件上传成功
+2019-06-14 13:04:34 kafka_consumer.py INFO  任务[4850d4e4c5d143fcb24ba3ff6ad3c206]文件上传成功
+2019-06-14 13:04:35 kafka_consumer.py INFO  任务[b08bef9bb6754d9096c3738b08e32668]文件上传成功
+2019-06-14 13:04:35 ju_xin_li.py INFO  聚信立数据爬取中
+2019-06-14 13:04:36 kafka_consumer.py INFO  任务[d314b3023ecc4bacb9fb40dfb3a5ba0c]文件上传成功
+2019-06-14 13:04:37 kafka_consumer.py INFO  任务[4a79bf4946c54144ac1ff67679514c12]文件上传成功
+2019-06-14 13:04:37 shu_ju_mo_he.py INFO  数据魔盒数据获取成功
+2019-06-14 13:04:39 ju_xin_li.py INFO  聚信立数据写入HTML
+2019-06-14 13:04:39 ju_xin_li.py INFO  C:\wkhtml\fonts
+2019-06-14 13:04:39 ju_xin_li.py INFO  C:\wkhtml\crawler_report\2019\06\14\BC135786\jxl
+2019-06-14 13:04:39 ju_xin_li.py INFO  创建成功
+2019-06-14 13:04:45 ju_xin_li.py INFO  聚信立pdf报告生成
+2019-06-14 13:04:46 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135786_jxl_100.pdf", "task_seq_no": "7c726ca56b714a8c828c82b3a9e52240", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135786\\jxl", "doc_code": "BC135786", "sub_type": "juxinliRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:04:46 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:04:47 shu_ju_mo_he.py INFO  数据魔盒PDF生成
+2019-06-14 13:04:49 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135786_sjmh_100.pdf", "task_seq_no": "34cef60311b446d4bccf273ab335801a", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135786\\sjmh", "doc_code": "BC135786", "sub_type": "shujumoheRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:04:49 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:04:49 kafka_consumer.py INFO  任务[7c726ca56b714a8c828c82b3a9e52240]文件上传成功
+2019-06-14 13:04:54 kafka_consumer.py INFO  任务[34cef60311b446d4bccf273ab335801a]文件上传成功
+2019-06-14 13:33:42 kafka_consumer.py DEBUG  kafka解析参数{"callback_url":"http://www.baixin.net.cn","data":{"apply_no":"BC135788","credit_report_list":[{"rule_no":"R0002","url":"https://report.shujumohe.com/report/TASKYYS100000201906141308550681100735/C724155208944A5C8C820B0213AB0F2C"},{"rule_no":"R0001","url":"https://dev.juxinli.com/report/#/report?token=7c0a86ba14434e8a823859f2f1b3ed16&org=GELS"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?isReport=true&authItem=ecommerce_credit&token=0056401319000wXOWbfmaIb4gzlp7WyZ&appId=gxbaae9436caa5c23f8&sign=b65b81824e33ca86a1eaa36c97cc3ffe&timestamp=1560490419318"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?appId=gxbaae9436caa5c23f8&sign=b65b81824e33ca86a1eaa36c97cc3ffe&timestamp=1560490419318&token=0056401319000wXOWbfmaIb4gzlp7WyZ"},{"rule_no":"R0004","url":"http://117.78.42.227:8080/api/report/ct91?applyNo=BC135788&method=91ZHENGXIN_sqr&token=520a30ea-6196-4964-823a-ee42a2c97c5d"},{"rule_no":"R0003","url":"http://117.78.42.227:8080/api/report/bairong?applyNo=BC135788&method=BAIRONG_sqr&token=2e41e605-04ff-4781-a617-783f98b6d6fc"},{"rule_no":"R0006","url":"http://117.78.42.227:8080/api/report/py?applyNo=BC135788&method=PY_sqr&token=1d8cd145-4897-45f6-aa2b-e8e33d04a175"},{"rule_no":"R0005","url":"http://117.78.42.227:8080/api/report/tianxing?applyNo=BC135788&method=TXSK_sqr&token=99775f73-b260-46a3-99ea-7647b0959029"},{"rule_no":"R0007","url":"http://117.78.42.227:8080/api/report/py2?applyNo=BC135788&method=PY2_po&token=7e5d522a-9157-402d-824a-df353e328bb2"},{"rule_no":"R0009","url":"http://192.168.1.112:8050/cp-service/v1/contract/spb/download?contractNo=BC135788&sign=bb161b2abfd4b1fd15c5687ab37998bb"}],"id_no":"441324196810090050","name":"朱坚强","phone_no":"13556298653"},"merch_no":"100002","rule_group_no":"rule001","sign":"a06c5ab382be01cf5a171091dc0d9a2c","task_no":"2019061413333700001"}
+2019-06-14 13:33:42 craw_route.py INFO  数据魔盒开始爬虫
+2019-06-14 13:33:42 craw_route.py INFO  数据魔盒爬虫结束
+2019-06-14 13:33:42 craw_route.py INFO  聚信立开始爬虫
+2019-06-14 13:33:42 craw_route.py INFO  聚信立爬虫结束
+2019-06-14 13:33:42 craw_route.py INFO  参数错误
+2019-06-14 13:33:42 craw_route.py INFO  91征信开始爬虫
+2019-06-14 13:33:42 craw_route.py INFO  91征信爬虫结束
+2019-06-14 13:33:42 craw_route.py INFO  百融开始爬虫
+2019-06-14 13:33:42 craw_route.py INFO  百融爬虫结束
+2019-06-14 13:33:42 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 13:33:42 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 13:33:43 craw_route.py INFO  天行数科开始爬虫
+2019-06-14 13:33:43 craw_route.py INFO  天行数科爬虫结束
+2019-06-14 13:33:43 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 13:33:43 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 13:33:43 craw_route.py INFO  业务审批表开始爬虫
+2019-06-14 13:33:43 craw_route.py INFO  业务审批表爬虫结束
+2019-06-14 13:33:43 bx_spb.py INFO  file write success!
+2019-06-14 13:33:43 bx_spb.py INFO  success
+2019-06-14 13:33:44 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135788_spb_100.pdf", "task_seq_no": "2d021ce113cf4ce2ab47fdddcdaf99c9", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135788\\spb", "doc_code": "BC135788", "sub_type": "approveRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:33:44 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:33:45 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135788_91_100.pdf", "task_seq_no": "d7e0bae3ff304797b137abe9ec6a9dea", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135788\\91", "doc_code": "BC135788", "sub_type": "91CreditRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:33:45 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:33:46 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135788_py_100.pdf", "task_seq_no": "56dbd55039fd484ab4ef88e49a3e118c", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135788\\py", "doc_code": "BC135788", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:33:46 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:33:46 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135788_py_card_auth_100.pdf", "task_seq_no": "7f9a5846660d4ce7b346c1756d93b2ea", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135788\\py", "doc_code": "BC135788", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:33:46 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:33:46 kafka_consumer.py INFO  任务[56dbd55039fd484ab4ef88e49a3e118c]文件上传成功
+2019-06-14 13:33:46 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135788_bairong_100.pdf", "task_seq_no": "18b1685879e8465baf1be4b0b67e6d06", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135788\\bairong", "doc_code": "BC135788", "sub_type": "bairongRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:33:46 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:33:47 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135788_txsk_100.pdf", "task_seq_no": "12931a1720274ad3adabccc4108d0518", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135788\\txsk", "doc_code": "BC135788", "sub_type": "tianxingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:33:47 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:33:47 kafka_consumer.py INFO  任务[7f9a5846660d4ce7b346c1756d93b2ea]文件上传成功
+2019-06-14 13:33:47 kafka_consumer.py INFO  任务[12931a1720274ad3adabccc4108d0518]文件上传成功
+2019-06-14 13:33:47 ju_xin_li.py INFO  聚信立数据爬取中
+2019-06-14 13:33:47 kafka_consumer.py INFO  任务[2d021ce113cf4ce2ab47fdddcdaf99c9]文件上传成功
+2019-06-14 13:33:48 kafka_consumer.py INFO  任务[18b1685879e8465baf1be4b0b67e6d06]文件上传成功
+2019-06-14 13:33:48 kafka_consumer.py INFO  任务[d7e0bae3ff304797b137abe9ec6a9dea]文件上传成功
+2019-06-14 13:33:50 shu_ju_mo_he.py INFO  数据魔盒数据获取成功
+2019-06-14 13:33:51 ju_xin_li.py INFO  聚信立数据写入HTML
+2019-06-14 13:33:51 ju_xin_li.py INFO  C:\wkhtml\fonts
+2019-06-14 13:33:51 ju_xin_li.py INFO  C:\wkhtml\crawler_report\2019\06\14\BC135788\jxl
+2019-06-14 13:33:51 ju_xin_li.py INFO  创建成功
+2019-06-14 13:33:56 ju_xin_li.py INFO  聚信立pdf报告生成
+2019-06-14 13:33:57 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135788_jxl_100.pdf", "task_seq_no": "3b6c7a5cbb5c4260ad4e16867635a959", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135788\\jxl", "doc_code": "BC135788", "sub_type": "juxinliRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:33:57 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:33:59 kafka_consumer.py INFO  任务[3b6c7a5cbb5c4260ad4e16867635a959]文件上传成功
+2019-06-14 13:34:00 shu_ju_mo_he.py INFO  数据魔盒PDF生成
+2019-06-14 13:34:01 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135788_sjmh_100.pdf", "task_seq_no": "102ee7c376fa4048adf6c2eb8eea403a", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135788\\sjmh", "doc_code": "BC135788", "sub_type": "shujumoheRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:34:01 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:34:08 kafka_consumer.py INFO  任务[102ee7c376fa4048adf6c2eb8eea403a]文件上传成功
+2019-06-14 13:39:06 kafka_consumer.py DEBUG  kafka解析参数{"callback_url":"http://www.baixin.net.cn","data":{"apply_no":"135780","credit_report_list":[{"rule_no":"R0002","url":"https://report.shujumohe.com/report/TASKYYS100000201906141149250500163987/C724155208944A5C8C820B0213AB0F2C"},{"rule_no":"R0001","url":"https://dev.juxinli.com/report/#/report?token=ff5881b334b144c7a657e5fa4ae4c6fa&org=GELS"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?isReport=true&authItem=ecommerce_credit&token=0056401319000OpQekPesVmn5J9fqmot&appId=gxbaae9436caa5c23f8&sign=90319078d4d03b8414c89489cbb401b8&timestamp=1560490743460"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?appId=gxbaae9436caa5c23f8&sign=90319078d4d03b8414c89489cbb401b8&timestamp=1560490743460&token=0056401319000OpQekPesVmn5J9fqmot"},{"rule_no":"R0004","url":"http://117.78.42.227:8080/api/report/ct91?applyNo=135780&method=91ZHENGXIN_sqr&token=d1d6d2e5-6472-4481-b2d1-57673632b399"},{"rule_no":"R0003","url":"http://117.78.42.227:8080/api/report/bairong?applyNo=135780&method=BAIRONG_sqr&token=348dbd70-e802-4141-8aee-bcde07c4b254"},{"rule_no":"R0006","url":"http://117.78.42.227:8080/api/report/py?applyNo=135780&method=PY_sqr&token=c0385405-ea5b-4191-b922-fe7ab411793d"},{"rule_no":"R0005","url":"http://117.78.42.227:8080/api/report/tianxing?applyNo=135780&method=TXSK_sqr&token=c9b14bf6-c8fe-4f39-852d-f4d70914f436"},{"rule_no":"R0007","url":"http://117.78.42.227:8080/api/report/py2?applyNo=135780&method=PY2_zxqs&token=ffc65e0a-d1bf-4d5e-8492-8f5266ba48bf"},{"rule_no":"R0009","url":"http://192.168.1.112:8050/cp-service/v1/contract/spb/download?contractNo=135780&sign=b22c025dc21ed0cbe67efeccf6eb4fe6"}],"id_no":"511028198501055725","name":"甘显琼","phone_no":"15809584051"},"merch_no":"100002","rule_group_no":"rule001","sign":"172b26ec1960b11ef3cc7a2e653ff368","task_no":"2019061413390000001"}
+2019-06-14 13:39:06 craw_route.py INFO  数据魔盒开始爬虫
+2019-06-14 13:39:06 craw_route.py INFO  数据魔盒爬虫结束
+2019-06-14 13:39:06 craw_route.py INFO  聚信立开始爬虫
+2019-06-14 13:39:06 craw_route.py INFO  聚信立爬虫结束
+2019-06-14 13:39:06 craw_route.py INFO  参数错误
+2019-06-14 13:39:07 craw_route.py INFO  91征信开始爬虫
+2019-06-14 13:39:07 craw_route.py INFO  91征信爬虫结束
+2019-06-14 13:39:07 craw_route.py INFO  百融开始爬虫
+2019-06-14 13:39:07 craw_route.py INFO  百融爬虫结束
+2019-06-14 13:39:07 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 13:39:07 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 13:39:07 craw_route.py INFO  天行数科开始爬虫
+2019-06-14 13:39:07 craw_route.py INFO  天行数科爬虫结束
+2019-06-14 13:39:07 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 13:39:07 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 13:39:07 craw_route.py INFO  业务审批表开始爬虫
+2019-06-14 13:39:07 craw_route.py INFO  业务审批表爬虫结束
+2019-06-14 13:39:07 bx_spb.py INFO  file write success!
+2019-06-14 13:39:07 bx_spb.py INFO  success
+2019-06-14 13:39:09 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135780_91_100.pdf", "task_seq_no": "839e266a516e4269b0451a3b470e7c15", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135780\\91", "doc_code": "135780", "sub_type": "91CreditRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:39:09 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:39:09 kafka_consumer.py INFO  任务[839e266a516e4269b0451a3b470e7c15]文件上传成功
+2019-06-14 13:39:10 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135780_py_card_auth_100.pdf", "task_seq_no": "c54c12b3dea341f1bdff18d1d93f43d0", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135780\\py", "doc_code": "135780", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:39:10 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:39:10 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135780_bairong_100.pdf", "task_seq_no": "f168b27add354f5081c67bade298d06f", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135780\\bairong", "doc_code": "135780", "sub_type": "bairongRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:39:10 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:39:10 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135780_txsk_100.pdf", "task_seq_no": "08195806535b4ab1bc5c45ff02cc92a3", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135780\\txsk", "doc_code": "135780", "sub_type": "tianxingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:39:10 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:39:12 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135780_py_100.pdf", "task_seq_no": "5756cbd1ad054a8d82b9524ee1000dfc", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135780\\py", "doc_code": "135780", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:39:12 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:39:12 ju_xin_li.py INFO  聚信立数据爬取中
+2019-06-14 13:39:12 kafka_consumer.py INFO  任务[c54c12b3dea341f1bdff18d1d93f43d0]文件上传成功
+2019-06-14 13:39:12 kafka_consumer.py INFO  任务[f168b27add354f5081c67bade298d06f]文件上传成功
+2019-06-14 13:39:14 kafka_consumer.py INFO  任务[08195806535b4ab1bc5c45ff02cc92a3]文件上传成功
+2019-06-14 13:39:14 shu_ju_mo_he.py INFO  数据魔盒数据获取成功
+2019-06-14 13:39:15 ju_xin_li.py INFO  聚信立数据写入HTML
+2019-06-14 13:39:15 kafka_consumer.py INFO  任务[5756cbd1ad054a8d82b9524ee1000dfc]文件上传成功
+2019-06-14 13:39:15 ju_xin_li.py INFO  C:\wkhtml\fonts
+2019-06-14 13:39:15 ju_xin_li.py INFO  C:\wkhtml\crawler_report\2019\06\14\135780\jxl
+2019-06-14 13:39:15 ju_xin_li.py INFO  创建成功
+2019-06-14 13:39:18 ju_xin_li.py INFO  聚信立pdf报告生成
+2019-06-14 13:39:19 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135780_jxl_100.pdf", "task_seq_no": "04f60bab68124442872f7801caae4596", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135780\\jxl", "doc_code": "135780", "sub_type": "juxinliRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:39:19 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:39:21 kafka_consumer.py DEBUG  kafka解析参数{"callback_url":"http://www.baixin.net.cn","data":{"apply_no":"135774","credit_report_list":[{"rule_no":"R0002","url":"https://report.shujumohe.com/report/TASKYYS100000201906141057450711034205/C724155208944A5C8C820B0213AB0F2C"},{"rule_no":"R0001","url":"https://dev.juxinli.com/report/#/report?token=b68bfaef5b0d4c59b84f19ae54605992&org=wanlong"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?isReport=true&authItem=ecommerce_credit&token=0056401319000eE9ik6E58tR1ReJe1PM&appId=gxbaae9436caa5c23f8&sign=01686d30c9a6f913c8c8f6d7436f84be&timestamp=1560490758140"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?appId=gxbaae9436caa5c23f8&sign=01686d30c9a6f913c8c8f6d7436f84be&timestamp=1560490758140&token=0056401319000eE9ik6E58tR1ReJe1PM"},{"rule_no":"R0004","url":"http://117.78.42.227:8080/api/report/ct91?applyNo=135774&method=91ZHENGXIN_sqr&token=98fd65b4-806d-4f2a-b772-b37addcb739f"},{"rule_no":"R0003","url":"http://117.78.42.227:8080/api/report/bairong?applyNo=135774&method=BAIRONG_sqr&token=89d18149-0df3-4403-9cff-c47561f78f86"},{"rule_no":"R0005","url":"http://117.78.42.227:8080/api/report/tianxing?applyNo=135774&method=TXSK_sqr&token=e4c78326-82c8-4357-9fd7-b074f65855aa"},{"rule_no":"R0007","url":"http://117.78.42.227:8080/api/report/py2?applyNo=135774&method=PY2_zxqs&token=1ec83aa3-d93b-490c-b5f9-ac1542c6ab39"},{"rule_no":"R0009","url":"http://192.168.1.112:8050/cp-service/v1/contract/spb/download?contractNo=135774&sign=da5d10b036872af6b3d196797d315b6f"}],"id_no":"420124197012136391","name":"程德斌","phone_no":"18674069988"},"merch_no":"100002","rule_group_no":"rule001","sign":"e903122dfc5822d2bb248f1981ae2066","task_no":"2019061413391500001"}
+2019-06-14 13:39:21 craw_route.py INFO  数据魔盒开始爬虫
+2019-06-14 13:39:21 craw_route.py INFO  数据魔盒爬虫结束
+2019-06-14 13:39:21 craw_route.py INFO  聚信立开始爬虫
+2019-06-14 13:39:21 craw_route.py INFO  聚信立爬虫结束
+2019-06-14 13:39:21 craw_route.py INFO  参数错误
+2019-06-14 13:39:21 craw_route.py INFO  91征信开始爬虫
+2019-06-14 13:39:21 craw_route.py INFO  91征信爬虫结束
+2019-06-14 13:39:21 craw_route.py INFO  百融开始爬虫
+2019-06-14 13:39:21 craw_route.py INFO  百融爬虫结束
+2019-06-14 13:39:21 craw_route.py INFO  天行数科开始爬虫
+2019-06-14 13:39:21 craw_route.py INFO  天行数科爬虫结束
+2019-06-14 13:39:21 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 13:39:21 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 13:39:21 craw_route.py INFO  业务审批表开始爬虫
+2019-06-14 13:39:21 craw_route.py INFO  业务审批表爬虫结束
+2019-06-14 13:39:21 bx_spb.py INFO  file write success!
+2019-06-14 13:39:21 bx_spb.py INFO  success
+2019-06-14 13:39:22 kafka_consumer.py INFO  任务[04f60bab68124442872f7801caae4596]文件上传成功
+2019-06-14 13:39:23 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135774_spb_100.pdf", "task_seq_no": "cc6acf7af8e346af9a4581c5a91f1fcf", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135774\\spb", "doc_code": "135774", "sub_type": "approveRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:39:23 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:39:23 kafka_consumer.py INFO  任务[cc6acf7af8e346af9a4581c5a91f1fcf]文件上传成功
+2019-06-14 13:39:24 shu_ju_mo_he.py INFO  数据魔盒PDF生成
+2019-06-14 13:39:24 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135774_py_card_auth_100.pdf", "task_seq_no": "25b942cd76f44f4e9afc3f48ec78f83a", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135774\\py", "doc_code": "135774", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:39:24 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:39:25 kafka_consumer.py INFO  任务[25b942cd76f44f4e9afc3f48ec78f83a]文件上传成功
+2019-06-14 13:39:25 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135774_91_100.pdf", "task_seq_no": "50e3f833c62b4bc7a104838008a62a15", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135774\\91", "doc_code": "135774", "sub_type": "91CreditRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:39:25 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:39:25 kafka_consumer.py INFO  任务[50e3f833c62b4bc7a104838008a62a15]文件上传成功
+2019-06-14 13:39:25 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135774_bairong_100.pdf", "task_seq_no": "b354f0e469f84804975185df3ebec94c", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135774\\bairong", "doc_code": "135774", "sub_type": "bairongRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:39:25 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:39:25 kafka_consumer.py INFO  任务[b354f0e469f84804975185df3ebec94c]文件上传成功
+2019-06-14 13:39:26 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135774_txsk_100.pdf", "task_seq_no": "274b9fb5255b4bdf97eddaa187b66f19", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135774\\txsk", "doc_code": "135774", "sub_type": "tianxingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:39:26 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:39:26 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135780_sjmh_100.pdf", "task_seq_no": "47075bf4854d49ec934486a7d27cc4b5", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135780\\sjmh", "doc_code": "135780", "sub_type": "shujumoheRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:39:26 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:39:26 kafka_consumer.py INFO  任务[274b9fb5255b4bdf97eddaa187b66f19]文件上传成功
+2019-06-14 13:39:26 ju_xin_li.py INFO  聚信立数据爬取中
+2019-06-14 13:39:29 shu_ju_mo_he.py INFO  数据魔盒数据获取成功
+2019-06-14 13:39:30 ju_xin_li.py INFO  聚信立数据写入HTML
+2019-06-14 13:39:30 ju_xin_li.py INFO  C:\wkhtml\fonts
+2019-06-14 13:39:30 ju_xin_li.py INFO  C:\wkhtml\crawler_report\2019\06\14\135774\jxl
+2019-06-14 13:39:30 ju_xin_li.py INFO  创建成功
+2019-06-14 13:39:31 kafka_consumer.py INFO  任务[47075bf4854d49ec934486a7d27cc4b5]文件上传成功
+2019-06-14 13:39:32 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135780_spb_100.pdf", "task_seq_no": "43e76c8f39e5429d83450a1f3f3850bc", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135780\\spb", "doc_code": "135780", "sub_type": "approveRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:39:32 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:39:33 kafka_consumer.py INFO  任务[43e76c8f39e5429d83450a1f3f3850bc]文件上传成功
+2019-06-14 13:39:35 ju_xin_li.py INFO  聚信立pdf报告生成
+2019-06-14 13:39:36 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135774_jxl_100.pdf", "task_seq_no": "3ec564523391471d8df4d5108f8d4ef2", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135774\\jxl", "doc_code": "135774", "sub_type": "juxinliRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:39:36 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:39:39 kafka_consumer.py INFO  任务[3ec564523391471d8df4d5108f8d4ef2]文件上传成功
+2019-06-14 13:39:39 shu_ju_mo_he.py INFO  数据魔盒PDF生成
+2019-06-14 13:39:40 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135774_sjmh_100.pdf", "task_seq_no": "cb173ed2faa44dd98e08e0585d02d872", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135774\\sjmh", "doc_code": "135774", "sub_type": "shujumoheRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:39:40 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:39:44 kafka_consumer.py INFO  任务[cb173ed2faa44dd98e08e0585d02d872]文件上传成功
+2019-06-14 13:46:07 kafka_consumer.py DEBUG  kafka解析参数{"callback_url":"http://www.baixin.net.cn","data":{"apply_no":"BC135787","credit_report_list":[{"rule_no":"R0002","url":"https://report.shujumohe.com/report/TASKYYS100000201906141225030510151979/C724155208944A5C8C820B0213AB0F2C"},{"rule_no":"R0001","url":"https://dev.juxinli.com/report/#/report?token=42091bbc54754aba87ff953a53c0d6d3&org=wanlong"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?isReport=true&authItem=ecommerce_credit&token=0056401319000CWYPCs90tWPPkZMAoEP&appId=gxbaae9436caa5c23f8&sign=1c82655c049f454fc77d6094c86c7c85&timestamp=1560491164758"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?appId=gxbaae9436caa5c23f8&sign=1c82655c049f454fc77d6094c86c7c85&timestamp=1560491164758&token=0056401319000CWYPCs90tWPPkZMAoEP"},{"rule_no":"R0004","url":"http://117.78.42.227:8080/api/report/ct91?applyNo=BC135787&method=91ZHENGXIN_sqr&token=74ad448f-18e1-42f6-af1e-699e1256894b"},{"rule_no":"R0003","url":"http://117.78.42.227:8080/api/report/bairong?applyNo=BC135787&method=BAIRONG_sqr&token=655f73a7-00bd-4d00-b97a-024eb0204b09"},{"rule_no":"R0006","url":"http://117.78.42.227:8080/api/report/py?applyNo=BC135787&method=PY_sqr&token=257ba922-ad8f-413c-aeba-b4141473394c"},{"rule_no":"R0005","url":"http://117.78.42.227:8080/api/report/tianxing?applyNo=BC135787&method=TXSK_sqr&token=b031e5d7-4682-4979-95d4-d92e542af0b5"},{"rule_no":"R0007","url":"http://117.78.42.227:8080/api/report/py2?applyNo=BC135787&method=PY2_po&token=7388f220-414d-4b4e-8bf5-e317fa489f14"},{"rule_no":"R0009","url":"http://192.168.1.112:8050/cp-service/v1/contract/spb/download?contractNo=BC135787&sign=109a215c96309d0e559a24e5c15a2bfe"}],"id_no":"360730199208155431","name":"谢玉书","phone_no":"13559769007"},"merch_no":"100002","rule_group_no":"rule001","sign":"870e64d960d2a5d958e337645abf9784","task_no":"2019061413460200004"}
+2019-06-14 13:46:07 craw_route.py INFO  数据魔盒开始爬虫
+2019-06-14 13:46:07 craw_route.py INFO  数据魔盒爬虫结束
+2019-06-14 13:46:08 craw_route.py INFO  聚信立开始爬虫
+2019-06-14 13:46:08 craw_route.py INFO  聚信立爬虫结束
+2019-06-14 13:46:08 craw_route.py INFO  参数错误
+2019-06-14 13:46:08 craw_route.py INFO  91征信开始爬虫
+2019-06-14 13:46:08 craw_route.py INFO  91征信爬虫结束
+2019-06-14 13:46:08 craw_route.py INFO  百融开始爬虫
+2019-06-14 13:46:08 craw_route.py INFO  百融爬虫结束
+2019-06-14 13:46:08 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 13:46:08 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 13:46:08 craw_route.py INFO  天行数科开始爬虫
+2019-06-14 13:46:08 craw_route.py INFO  天行数科爬虫结束
+2019-06-14 13:46:08 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 13:46:08 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 13:46:08 craw_route.py INFO  业务审批表开始爬虫
+2019-06-14 13:46:08 craw_route.py INFO  业务审批表爬虫结束
+2019-06-14 13:46:08 bx_spb.py INFO  file write success!
+2019-06-14 13:46:08 bx_spb.py INFO  success
+2019-06-14 13:46:11 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135787_py_100.pdf", "task_seq_no": "9f4d13f33c63492e8b265feb6a5493df", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135787\\py", "doc_code": "BC135787", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:46:11 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:46:11 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135787_py_card_auth_100.pdf", "task_seq_no": "0e6591664053432e9c973323a7b1d37c", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135787\\py", "doc_code": "BC135787", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:46:11 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:46:12 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135787_91_100.pdf", "task_seq_no": "9f304cf7ffb2402ca9c561c7bcdadaab", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135787\\91", "doc_code": "BC135787", "sub_type": "91CreditRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:46:12 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:46:12 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135787_bairong_100.pdf", "task_seq_no": "1b4a1bbf881d45e58b0df79d865f8bdc", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135787\\bairong", "doc_code": "BC135787", "sub_type": "bairongRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:46:12 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:46:12 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135787_txsk_100.pdf", "task_seq_no": "e0bff7a818c8490db742f526fdc1e70b", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135787\\txsk", "doc_code": "BC135787", "sub_type": "tianxingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:46:12 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:46:13 kafka_consumer.py INFO  任务[e0bff7a818c8490db742f526fdc1e70b]文件上传成功
+2019-06-14 13:46:13 kafka_consumer.py INFO  任务[1b4a1bbf881d45e58b0df79d865f8bdc]文件上传成功
+2019-06-14 13:46:13 kafka_consumer.py INFO  任务[0e6591664053432e9c973323a7b1d37c]文件上传成功
+2019-06-14 13:46:13 ju_xin_li.py INFO  聚信立数据爬取中
+2019-06-14 13:46:15 kafka_consumer.py INFO  任务[9f4d13f33c63492e8b265feb6a5493df]文件上传成功
+2019-06-14 13:46:15 shu_ju_mo_he.py INFO  数据魔盒数据获取成功
+2019-06-14 13:46:15 kafka_consumer.py INFO  任务[9f304cf7ffb2402ca9c561c7bcdadaab]文件上传成功
+2019-06-14 13:46:16 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135787_spb_100.pdf", "task_seq_no": "e0a1d9d281b04fde923650b2e6d13254", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135787\\spb", "doc_code": "BC135787", "sub_type": "approveRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:46:16 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:46:16 ju_xin_li.py INFO  聚信立数据写入HTML
+2019-06-14 13:46:16 ju_xin_li.py INFO  C:\wkhtml\fonts
+2019-06-14 13:46:16 ju_xin_li.py INFO  C:\wkhtml\crawler_report\2019\06\14\BC135787\jxl
+2019-06-14 13:46:16 ju_xin_li.py INFO  创建成功
+2019-06-14 13:46:17 kafka_consumer.py INFO  任务[e0a1d9d281b04fde923650b2e6d13254]文件上传成功
+2019-06-14 13:46:19 ju_xin_li.py INFO  聚信立pdf报告生成
+2019-06-14 13:46:20 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135787_jxl_100.pdf", "task_seq_no": "ed0bfd81f042435e8dd525727bd59984", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135787\\jxl", "doc_code": "BC135787", "sub_type": "juxinliRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:46:20 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:46:21 kafka_consumer.py INFO  任务[ed0bfd81f042435e8dd525727bd59984]文件上传成功
+2019-06-14 13:51:38 kafka_consumer.py DEBUG  kafka解析参数{"callback_url":"http://www.baixin.net.cn","data":{"apply_no":"135789","credit_report_list":[{"rule_no":"R0002","url":"https://report.shujumohe.com/report/TASKYYS100000201906141238190331922985/C724155208944A5C8C820B0213AB0F2C"},{"rule_no":"R0001","url":"https://dev.juxinli.com/report/#/report?token=995c52db48274c07aa6ab1708b0e419a&org=GELS"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?isReport=true&authItem=ecommerce_credit&token=0056401319000xi8sALOfg0F9bNUnVmw&appId=gxbaae9436caa5c23f8&sign=4913ac1f22c3a291c92d24f8d704543b&timestamp=1560491495406"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?appId=gxbaae9436caa5c23f8&sign=4913ac1f22c3a291c92d24f8d704543b&timestamp=1560491495406&token=0056401319000xi8sALOfg0F9bNUnVmw"},{"rule_no":"R0004","url":"http://117.78.42.227:8080/api/report/ct91?applyNo=135789&method=91ZHENGXIN_sqr&token=ab0ed0a9-d239-4dd9-b160-5387cb1f3c18"},{"rule_no":"R0003","url":"http://117.78.42.227:8080/api/report/bairong?applyNo=135789&method=BAIRONG_sqr&token=eb44d791-cd1d-42bd-9c00-09f415114c5a"},{"rule_no":"R0006","url":"http://117.78.42.227:8080/api/report/py?applyNo=135789&method=PY_sqr&token=082b4277-c12f-4c7d-9e7d-2061b57dce03"},{"rule_no":"R0005","url":"http://117.78.42.227:8080/api/report/tianxing?applyNo=135789&method=TXSK_sqr&token=5d1eba26-251a-4a69-9ce5-a08912d2adcd"},{"rule_no":"R0007","url":"http://117.78.42.227:8080/api/report/py2?applyNo=135789&method=PY2_po&token=d00237b2-4fce-457b-a488-a44011641c1b"},{"rule_no":"R0009","url":"http://192.168.1.112:8050/cp-service/v1/contract/spb/download?contractNo=135789&sign=2b9d90aa6dca86b8b1c1c81adf71f1b8"}],"id_no":"610115198605165036","name":"彭景飞","phone_no":"13772463692"},"merch_no":"100002","rule_group_no":"rule001","sign":"7aacf316d8d6c9d05cbd0f0f6ac1d3a6","task_no":"2019061413513200001"}
+2019-06-14 13:51:38 craw_route.py INFO  数据魔盒开始爬虫
+2019-06-14 13:51:38 craw_route.py INFO  数据魔盒爬虫结束
+2019-06-14 13:51:38 craw_route.py INFO  聚信立开始爬虫
+2019-06-14 13:51:38 craw_route.py INFO  聚信立爬虫结束
+2019-06-14 13:51:39 craw_route.py INFO  参数错误
+2019-06-14 13:51:39 craw_route.py INFO  91征信开始爬虫
+2019-06-14 13:51:39 craw_route.py INFO  91征信爬虫结束
+2019-06-14 13:51:39 craw_route.py INFO  百融开始爬虫
+2019-06-14 13:51:39 craw_route.py INFO  百融爬虫结束
+2019-06-14 13:51:39 kafka_consumer.py DEBUG  kafka解析参数{"craw_repetition": {"re_upload_count": 0, "task_seq_no": "20db717457dc4571b15da2323bcfb17d"}, "merch_no": "100000", "callback_url": "http://www.baixin.net.cn/a/b/", "sign": "17c7a66ddf3f4f1db4fa0fc14a5bd55a", "data": {"credit_report_list": [{"rule_no": "R0002", "url": "https://report.shujumohe.com/report/TASKYYS100000201906141225030510151979/C724155208944A5C8C820B0213AB0F2C"}], "name": "\u8c22\u7389\u4e66", "apply_no": "BC135787", "id_no": "360730199208155431", "phone_no": "13559769007"}, "task_no": "20190614135138", "rule_group_no": "rule001"}
+2019-06-14 13:51:39 kafka_consumer.py INFO  重爬机制触发
+2019-06-14 13:51:39 craw_route.py INFO  数据魔盒开始爬虫
+2019-06-14 13:51:39 craw_route.py INFO  数据魔盒爬虫结束
+2019-06-14 13:51:39 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 13:51:39 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 13:51:39 craw_route.py INFO  天行数科开始爬虫
+2019-06-14 13:51:39 craw_route.py INFO  天行数科爬虫结束
+2019-06-14 13:51:39 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 13:51:39 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 13:51:39 craw_route.py INFO  业务审批表开始爬虫
+2019-06-14 13:51:39 craw_route.py INFO  业务审批表爬虫结束
+2019-06-14 13:51:39 bx_spb.py INFO  file write success!
+2019-06-14 13:51:39 bx_spb.py INFO  success
+2019-06-14 13:51:41 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135789_spb_100.pdf", "task_seq_no": "ab37a5bb709d45d8a92630ed4fe3d6e2", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135789\\spb", "doc_code": "135789", "sub_type": "approveRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:51:41 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:51:42 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135789_py_100.pdf", "task_seq_no": "38960931b5784de192e405da3cf6d1b2", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135789\\py", "doc_code": "135789", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:51:42 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:51:42 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135789_py_card_auth_100.pdf", "task_seq_no": "881e9956f8974ab6bc71cf33627c1e14", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135789\\py", "doc_code": "135789", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:51:42 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:51:42 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135789_91_100.pdf", "task_seq_no": "3c2782ca31ff49e88726d93895617a7a", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135789\\91", "doc_code": "135789", "sub_type": "91CreditRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:51:42 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:51:42 kafka_consumer.py INFO  任务[38960931b5784de192e405da3cf6d1b2]文件上传成功
+2019-06-14 13:51:43 kafka_consumer.py INFO  任务[881e9956f8974ab6bc71cf33627c1e14]文件上传成功
+2019-06-14 13:51:43 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135789_bairong_100.pdf", "task_seq_no": "f193f271a01a4310a0f9336cfba47918", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135789\\bairong", "doc_code": "135789", "sub_type": "bairongRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:51:43 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:51:43 kafka_consumer.py INFO  任务[ab37a5bb709d45d8a92630ed4fe3d6e2]文件上传成功
+2019-06-14 13:51:43 kafka_consumer.py INFO  任务[3c2782ca31ff49e88726d93895617a7a]文件上传成功
+2019-06-14 13:51:43 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135789_txsk_100.pdf", "task_seq_no": "a07bc982bb954c6e834f46235daf599b", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135789\\txsk", "doc_code": "135789", "sub_type": "tianxingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:51:43 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:51:43 kafka_consumer.py INFO  任务[f193f271a01a4310a0f9336cfba47918]文件上传成功
+2019-06-14 13:51:43 kafka_consumer.py INFO  任务[a07bc982bb954c6e834f46235daf599b]文件上传成功
+2019-06-14 13:51:44 ju_xin_li.py INFO  聚信立数据爬取中
+2019-06-14 13:51:46 shu_ju_mo_he.py INFO  数据魔盒数据获取成功
+2019-06-14 13:51:47 shu_ju_mo_he.py INFO  数据魔盒数据获取成功
+2019-06-14 13:51:47 ju_xin_li.py INFO  聚信立数据写入HTML
+2019-06-14 13:51:48 ju_xin_li.py INFO  C:\wkhtml\fonts
+2019-06-14 13:51:48 ju_xin_li.py INFO  C:\wkhtml\crawler_report\2019\06\14\135789\jxl
+2019-06-14 13:51:48 ju_xin_li.py INFO  创建成功
+2019-06-14 13:51:52 ju_xin_li.py INFO  聚信立pdf报告生成
+2019-06-14 13:51:53 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135789_jxl_100.pdf", "task_seq_no": "dcb3bf2fe7fc4add9054c895296ec816", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135789\\jxl", "doc_code": "135789", "sub_type": "juxinliRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:51:53 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:51:56 kafka_consumer.py INFO  任务[dcb3bf2fe7fc4add9054c895296ec816]文件上传成功
+2019-06-14 13:51:56 shu_ju_mo_he.py INFO  数据魔盒PDF生成
+2019-06-14 13:51:57 shu_ju_mo_he.py INFO  数据魔盒PDF生成
+2019-06-14 13:51:58 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135787_sjmh_101.pdf", "task_seq_no": "20db717457dc4571b15da2323bcfb17d", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135787\\sjmh", "doc_code": "BC135787", "sub_type": "shujumoheRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:51:58 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:51:58 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "135789_sjmh_100.pdf", "task_seq_no": "7db59c80e37a4347bd3b8ae82fbfdf8b", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\135789\\sjmh", "doc_code": "135789", "sub_type": "shujumoheRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:51:58 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:52:07 kafka_consumer.py INFO  任务[20db717457dc4571b15da2323bcfb17d]文件上传成功
+2019-06-14 13:52:08 kafka_consumer.py INFO  任务[7db59c80e37a4347bd3b8ae82fbfdf8b]文件上传成功
+2019-06-14 13:54:28 kafka_consumer.py DEBUG  kafka解析参数{"callback_url":"http://www.baixin.net.cn","data":{"apply_no":"BC135791","credit_report_list":[{"rule_no":"R0002","url":"https://report.shujumohe.com/report/TASKYYS100000201906141311390711030966/C724155208944A5C8C820B0213AB0F2C"},{"rule_no":"R0001","url":"https://dev.juxinli.com/report/#/report?token=82568bf53e994b0ab085beee2a3e6c8b&org=GELS"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?isReport=true&authItem=ecommerce_credit&token=0056401319000MK5iyCOqhtqEbVoFnib&appId=gxbaae9436caa5c23f8&sign=aae29590c6ef50a1a92506af7c4c06d2&timestamp=1560491664935"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?appId=gxbaae9436caa5c23f8&sign=aae29590c6ef50a1a92506af7c4c06d2&timestamp=1560491664935&token=0056401319000MK5iyCOqhtqEbVoFnib"},{"rule_no":"R0004","url":"http://117.78.42.227:8080/api/report/ct91?applyNo=BC135791&method=91ZHENGXIN_sqr&token=163929f4-8b6b-4932-8476-0236885cee98"},{"rule_no":"R0003","url":"http://117.78.42.227:8080/api/report/bairong?applyNo=BC135791&method=BAIRONG_sqr&token=066f965d-be16-49c8-8f14-9dc294980e68"},{"rule_no":"R0006","url":"http://117.78.42.227:8080/api/report/py?applyNo=BC135791&method=PY_sqr&token=bb47fe5b-974d-41ee-b53a-e3b0104cc196"},{"rule_no":"R0005","url":"http://117.78.42.227:8080/api/report/tianxing?applyNo=BC135791&method=TXSK_sqr&token=d30ff645-0834-4f65-aca6-ca93209c82ef"},{"rule_no":"R0007","url":"http://117.78.42.227:8080/api/report/py2?applyNo=BC135791&method=PY2_po&token=72df86dc-207b-48e5-a198-22c1fbb1baf0"},{"rule_no":"R0009","url":"http://192.168.1.112:8050/cp-service/v1/contract/spb/download?contractNo=BC135791&sign=3dd6b18cfba5de6d4a5ed8b4784f27a9"}],"id_no":"422126199008308019","name":"柯卓","phone_no":"13380287817"},"merch_no":"100002","rule_group_no":"rule001","sign":"83fafc6ad4d1542a1517048ee5af0928","task_no":"2019061413542200001"}
+2019-06-14 13:54:28 craw_route.py INFO  数据魔盒开始爬虫
+2019-06-14 13:54:28 craw_route.py INFO  数据魔盒爬虫结束
+2019-06-14 13:54:28 craw_route.py INFO  聚信立开始爬虫
+2019-06-14 13:54:28 craw_route.py INFO  聚信立爬虫结束
+2019-06-14 13:54:28 craw_route.py INFO  参数错误
+2019-06-14 13:54:28 craw_route.py INFO  91征信开始爬虫
+2019-06-14 13:54:28 craw_route.py INFO  91征信爬虫结束
+2019-06-14 13:54:28 craw_route.py INFO  百融开始爬虫
+2019-06-14 13:54:28 craw_route.py INFO  百融爬虫结束
+2019-06-14 13:54:28 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 13:54:28 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 13:54:28 craw_route.py INFO  天行数科开始爬虫
+2019-06-14 13:54:28 craw_route.py INFO  天行数科爬虫结束
+2019-06-14 13:54:28 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 13:54:28 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 13:54:28 craw_route.py INFO  业务审批表开始爬虫
+2019-06-14 13:54:28 craw_route.py INFO  业务审批表爬虫结束
+2019-06-14 13:54:28 bx_spb.py INFO  file write success!
+2019-06-14 13:54:28 bx_spb.py INFO  success
+2019-06-14 13:54:30 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135791_spb_100.pdf", "task_seq_no": "d30666b226404ab1962364635a4bdf74", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135791\\spb", "doc_code": "BC135791", "sub_type": "approveRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:54:30 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:54:31 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135791_91_100.pdf", "task_seq_no": "7d32356da6534fed96fe51e470c03aa7", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135791\\91", "doc_code": "BC135791", "sub_type": "91CreditRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:54:31 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:54:31 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135791_py_100.pdf", "task_seq_no": "a07bfa6988b34196964088a9b59ccde7", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135791\\py", "doc_code": "BC135791", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:54:31 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:54:31 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135791_py_card_auth_100.pdf", "task_seq_no": "6eca936f2acf447f8dd3ca3ddf8f2bcc", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135791\\py", "doc_code": "BC135791", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:54:31 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:54:32 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135791_bairong_100.pdf", "task_seq_no": "27948f333ccb4d678176f49808273548", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135791\\bairong", "doc_code": "BC135791", "sub_type": "bairongRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:54:32 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:54:32 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135791_txsk_100.pdf", "task_seq_no": "1a4db6d726e741d78bf5135f4c124608", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135791\\txsk", "doc_code": "BC135791", "sub_type": "tianxingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:54:32 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:54:32 kafka_consumer.py INFO  任务[1a4db6d726e741d78bf5135f4c124608]文件上传成功
+2019-06-14 13:54:33 kafka_consumer.py INFO  任务[d30666b226404ab1962364635a4bdf74]文件上传成功
+2019-06-14 13:54:33 kafka_consumer.py INFO  任务[a07bfa6988b34196964088a9b59ccde7]文件上传成功
+2019-06-14 13:54:33 ju_xin_li.py INFO  聚信立数据爬取中
+2019-06-14 13:54:34 kafka_consumer.py INFO  任务[7d32356da6534fed96fe51e470c03aa7]文件上传成功
+2019-06-14 13:54:35 kafka_consumer.py INFO  任务[6eca936f2acf447f8dd3ca3ddf8f2bcc]文件上传成功
+2019-06-14 13:54:35 kafka_consumer.py INFO  任务[27948f333ccb4d678176f49808273548]文件上传成功
+2019-06-14 13:54:35 shu_ju_mo_he.py INFO  数据魔盒数据获取成功
+2019-06-14 13:54:45 shu_ju_mo_he.py INFO  数据魔盒PDF生成
+2019-06-14 13:54:47 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135791_sjmh_100.pdf", "task_seq_no": "899391d9e1924f43a3c75a5dc45bd850", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135791\\sjmh", "doc_code": "BC135791", "sub_type": "shujumoheRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:54:47 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:54:52 kafka_consumer.py INFO  任务[899391d9e1924f43a3c75a5dc45bd850]文件上传成功
+2019-06-14 13:58:43 kafka_consumer.py DEBUG  kafka解析参数{"callback_url":"http://www.baixin.net.cn","data":{"apply_no":"BC135794","credit_report_list":[{"rule_no":"R0002","url":"https://report.shujumohe.com/report/TASKYYS100000201906141323170720981856/C724155208944A5C8C820B0213AB0F2C"},{"rule_no":"R0001","url":"https://dev.juxinli.com/report/#/report?token=dbea2fad6e4d445394630963ba7796da&org=GELS"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?isReport=true&authItem=ecommerce_credit&token=0056401319000QPd3jEDoxi4s6eUgcPR&appId=gxbaae9436caa5c23f8&sign=28ddf87bdbfd270a388a2577b0920cbb&timestamp=1560491919922"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?appId=gxbaae9436caa5c23f8&sign=28ddf87bdbfd270a388a2577b0920cbb&timestamp=1560491919922&token=0056401319000QPd3jEDoxi4s6eUgcPR"},{"rule_no":"R0004","url":"http://117.78.42.227:8080/api/report/ct91?applyNo=BC135794&method=91ZHENGXIN_sqr&token=998276ce-176a-4355-b54f-834d865cb3b9"},{"rule_no":"R0003","url":"http://117.78.42.227:8080/api/report/bairong?applyNo=BC135794&method=BAIRONG_sqr&token=ecae1328-0d79-4c49-92a9-c9503ba5b821"},{"rule_no":"R0006","url":"http://117.78.42.227:8080/api/report/py?applyNo=BC135794&method=PY_sqr&token=8e1e0366-0c1f-4637-a794-0d91e2cd024b"},{"rule_no":"R0005","url":"http://117.78.42.227:8080/api/report/tianxing?applyNo=BC135794&method=TXSK_sqr&token=60c5f966-cd70-4df1-bcf0-6d9c947d0ba3"},{"rule_no":"R0007","url":"http://117.78.42.227:8080/api/report/py2?applyNo=BC135794&method=PY2_zxqs&token=dbba7d31-3a13-430d-bb25-dd0674c8bbec"},{"rule_no":"R0009","url":"http://192.168.1.112:8050/cp-service/v1/contract/spb/download?contractNo=BC135794&sign=43aab1a69971d74463f0859593095da2"}],"id_no":"440682199402145019","name":"李健波","phone_no":"13049199109"},"merch_no":"100002","rule_group_no":"rule001","sign":"5cd70f3f867a0d023a9951089414d8c6","task_no":"2019061413583700001"}
+2019-06-14 13:58:43 craw_route.py INFO  数据魔盒开始爬虫
+2019-06-14 13:58:43 craw_route.py INFO  数据魔盒爬虫结束
+2019-06-14 13:58:43 kafka_consumer.py DEBUG  kafka解析参数{"craw_repetition": {"re_upload_count": 0, "task_seq_no": "bc9060764e394dbda4cc122e62407224"}, "merch_no": "100000", "callback_url": "http://www.baixin.net.cn/a/b/", "sign": "b7610d01b9aadd6d95abb80a26d6a64e", "data": {"credit_report_list": [{"rule_no": "R0001", "url": "https://dev.juxinli.com/report/#/report?token=82568bf53e994b0ab085beee2a3e6c8b&org=GELS"}], "name": "\u67ef\u5353", "apply_no": "BC135791", "id_no": "422126199008308019", "phone_no": "13380287817"}, "task_no": "20190614135843", "rule_group_no": "rule001"}
+2019-06-14 13:58:43 kafka_consumer.py INFO  重爬机制触发
+2019-06-14 13:58:43 craw_route.py INFO  聚信立开始爬虫
+2019-06-14 13:58:43 craw_route.py INFO  聚信立爬虫结束
+2019-06-14 13:58:43 craw_route.py INFO  聚信立开始爬虫
+2019-06-14 13:58:43 craw_route.py INFO  聚信立爬虫结束
+2019-06-14 13:58:43 craw_route.py INFO  参数错误
+2019-06-14 13:58:43 craw_route.py INFO  91征信开始爬虫
+2019-06-14 13:58:43 craw_route.py INFO  91征信爬虫结束
+2019-06-14 13:58:43 craw_route.py INFO  百融开始爬虫
+2019-06-14 13:58:43 craw_route.py INFO  百融爬虫结束
+2019-06-14 13:58:43 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 13:58:43 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 13:58:43 craw_route.py INFO  天行数科开始爬虫
+2019-06-14 13:58:43 craw_route.py INFO  天行数科爬虫结束
+2019-06-14 13:58:43 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 13:58:43 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 13:58:43 craw_route.py INFO  业务审批表开始爬虫
+2019-06-14 13:58:43 craw_route.py INFO  业务审批表爬虫结束
+2019-06-14 13:58:44 bx_spb.py INFO  file write success!
+2019-06-14 13:58:44 bx_spb.py INFO  success
+2019-06-14 13:58:45 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135794_spb_100.pdf", "task_seq_no": "698699b891614a69b8a63647eba05738", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135794\\spb", "doc_code": "BC135794", "sub_type": "approveRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:58:45 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:58:46 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135794_py_100.pdf", "task_seq_no": "6e753e24417d473eb7df5058649245d7", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135794\\py", "doc_code": "BC135794", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:58:46 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:58:46 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135794_py_card_auth_100.pdf", "task_seq_no": "1d8cfc70794642c2893a5f1301dac0d8", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135794\\py", "doc_code": "BC135794", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:58:46 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:58:47 kafka_consumer.py INFO  任务[698699b891614a69b8a63647eba05738]文件上传成功
+2019-06-14 13:58:47 kafka_consumer.py INFO  任务[6e753e24417d473eb7df5058649245d7]文件上传成功
+2019-06-14 13:58:47 kafka_consumer.py INFO  任务[1d8cfc70794642c2893a5f1301dac0d8]文件上传成功
+2019-06-14 13:58:47 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135794_91_100.pdf", "task_seq_no": "6d77889add1b45b182734d9a31f2c510", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135794\\91", "doc_code": "BC135794", "sub_type": "91CreditRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:58:47 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:58:47 kafka_consumer.py INFO  任务[6d77889add1b45b182734d9a31f2c510]文件上传成功
+2019-06-14 13:58:47 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135794_bairong_100.pdf", "task_seq_no": "183681794a3f406fa1a2372e9a43110d", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135794\\bairong", "doc_code": "BC135794", "sub_type": "bairongRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:58:47 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:58:47 kafka_consumer.py INFO  任务[183681794a3f406fa1a2372e9a43110d]文件上传成功
+2019-06-14 13:58:47 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135794_txsk_100.pdf", "task_seq_no": "e71449e6412047f28b12cbe6d843ec5b", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135794\\txsk", "doc_code": "BC135794", "sub_type": "tianxingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:58:47 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:58:48 kafka_consumer.py INFO  任务[e71449e6412047f28b12cbe6d843ec5b]文件上传成功
+2019-06-14 13:58:48 ju_xin_li.py INFO  聚信立数据爬取中
+2019-06-14 13:58:49 ju_xin_li.py INFO  聚信立数据爬取中
+2019-06-14 13:58:52 ju_xin_li.py INFO  聚信立数据写入HTML
+2019-06-14 13:58:52 ju_xin_li.py INFO  C:\wkhtml\fonts
+2019-06-14 13:58:52 ju_xin_li.py INFO  C:\wkhtml\crawler_report\2019\06\14\BC135794\jxl
+2019-06-14 13:58:52 ju_xin_li.py INFO  创建成功
+2019-06-14 13:58:53 shu_ju_mo_he.py INFO  数据魔盒数据获取成功
+2019-06-14 13:58:59 ju_xin_li.py INFO  聚信立pdf报告生成
+2019-06-14 13:59:00 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135794_jxl_100.pdf", "task_seq_no": "022036e7322d402e82d332a89af1679e", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135794\\jxl", "doc_code": "BC135794", "sub_type": "juxinliRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:59:00 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:59:03 shu_ju_mo_he.py INFO  数据魔盒PDF生成
+2019-06-14 13:59:03 kafka_consumer.py INFO  任务[022036e7322d402e82d332a89af1679e]文件上传成功
+2019-06-14 13:59:04 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135794_sjmh_100.pdf", "task_seq_no": "dce2b602d5524472b9aea3c3e8fe7f9a", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135794\\sjmh", "doc_code": "BC135794", "sub_type": "shujumoheRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 13:59:04 kafka_consumer.py INFO  文件上传结束
+2019-06-14 13:59:08 kafka_consumer.py INFO  任务[dce2b602d5524472b9aea3c3e8fe7f9a]文件上传成功
+2019-06-14 14:00:58 kafka_consumer.py DEBUG  kafka解析参数{"callback_url":"http://www.baixin.net.cn","data":{"apply_no":"BC135790","credit_report_list":[{"rule_no":"R0002","url":"https://report.shujumohe.com/report/TASKYYS100000201906141239200331923066/C724155208944A5C8C820B0213AB0F2C"},{"rule_no":"R0001","url":"https://dev.juxinli.com/report/#/report?token=059d63b2e2e244b3a7201c0eb5cda8cb&org=GELS"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?isReport=true&authItem=ecommerce_credit&token=0056401319000DvQNFV6ZGauwfTDEe8O&appId=gxbaae9436caa5c23f8&sign=cc161757f6003448b1d06890e355336d&timestamp=1560492055176"},{"rule_no":"R0011","url":"https://prod.gxb.io/datalist.html?appId=gxbaae9436caa5c23f8&sign=cc161757f6003448b1d06890e355336d&timestamp=1560492055176&token=0056401319000DvQNFV6ZGauwfTDEe8O"},{"rule_no":"R0004","url":"http://117.78.42.227:8080/api/report/ct91?applyNo=BC135790&method=91ZHENGXIN_sqr&token=aef0c315-71bd-4938-881a-c247b4ce03b4"},{"rule_no":"R0003","url":"http://117.78.42.227:8080/api/report/bairong?applyNo=BC135790&method=BAIRONG_sqr&token=fb7e7927-73ea-4b37-afe2-8c4895fb0b45"},{"rule_no":"R0006","url":"http://117.78.42.227:8080/api/report/py?applyNo=BC135790&method=PY_sqr&token=554e4800-1418-4a8f-b2dc-85262c7f8799"},{"rule_no":"R0005","url":"http://117.78.42.227:8080/api/report/tianxing?applyNo=BC135790&method=TXSK_sqr&token=c285ea16-e41f-4876-89f3-58dcfcf30fdd"},{"rule_no":"R0007","url":"http://117.78.42.227:8080/api/report/py2?applyNo=BC135790&method=PY2_po&token=a67b5a87-0158-447f-8689-76120ddd807e"},{"rule_no":"R0009","url":"http://192.168.1.112:8050/cp-service/v1/contract/spb/download?contractNo=BC135790&sign=8c5c8578d34679cc472b4fcaffd54de4"}],"id_no":"532627198304123734","name":"王春伦","phone_no":"15015433486"},"merch_no":"100002","rule_group_no":"rule001","sign":"62b3408272b165328ecda0c5e750e7d3","task_no":"2019061414005300001"}
+2019-06-14 14:00:58 craw_route.py INFO  数据魔盒开始爬虫
+2019-06-14 14:00:58 craw_route.py INFO  数据魔盒爬虫结束
+2019-06-14 14:00:58 craw_route.py INFO  聚信立开始爬虫
+2019-06-14 14:00:58 craw_route.py INFO  聚信立爬虫结束
+2019-06-14 14:00:58 kafka_consumer.py DEBUG  kafka解析参数{"craw_repetition": {"re_upload_count": 1, "task_seq_no": "bc9060764e394dbda4cc122e62407224"}, "merch_no": "100000", "callback_url": "http://www.baixin.net.cn/a/b/", "sign": "d483902fa69e300df503a7de6acc555d", "data": {"credit_report_list": [{"rule_no": "R0001", "url": "https://dev.juxinli.com/report/#/report?token=82568bf53e994b0ab085beee2a3e6c8b&org=GELS"}], "name": "\u67ef\u5353", "apply_no": "BC135791", "id_no": "422126199008308019", "phone_no": "13380287817"}, "task_no": "20190614140058", "rule_group_no": "rule001"}
+2019-06-14 14:00:58 kafka_consumer.py INFO  重爬机制触发
+2019-06-14 14:00:58 craw_route.py INFO  参数错误
+2019-06-14 14:00:58 craw_route.py INFO  聚信立开始爬虫
+2019-06-14 14:00:58 craw_route.py INFO  聚信立爬虫结束
+2019-06-14 14:00:58 craw_route.py INFO  91征信开始爬虫
+2019-06-14 14:00:58 craw_route.py INFO  91征信爬虫结束
+2019-06-14 14:00:58 craw_route.py INFO  百融开始爬虫
+2019-06-14 14:00:58 craw_route.py INFO  百融爬虫结束
+2019-06-14 14:00:58 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 14:00:58 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 14:00:58 craw_route.py INFO  天行数科开始爬虫
+2019-06-14 14:00:58 craw_route.py INFO  天行数科爬虫结束
+2019-06-14 14:00:59 craw_route.py INFO  鹏元开始爬虫
+2019-06-14 14:00:59 craw_route.py INFO  鹏元爬虫结束
+2019-06-14 14:00:59 craw_route.py INFO  业务审批表开始爬虫
+2019-06-14 14:00:59 craw_route.py INFO  业务审批表爬虫结束
+2019-06-14 14:00:59 bx_spb.py INFO  file write success!
+2019-06-14 14:00:59 bx_spb.py INFO  success
+2019-06-14 14:01:00 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135790_spb_100.pdf", "task_seq_no": "f4480cc9c86f4e8bbdeb993152011e0c", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135790\\spb", "doc_code": "BC135790", "sub_type": "approveRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 14:01:00 kafka_consumer.py INFO  文件上传结束
+2019-06-14 14:01:01 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135790_py_card_auth_100.pdf", "task_seq_no": "939a77f232b3420dbd2f568226430307", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135790\\py", "doc_code": "BC135790", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 14:01:01 kafka_consumer.py INFO  文件上传结束
+2019-06-14 14:01:02 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135790_91_100.pdf", "task_seq_no": "afb54afa33e847a0b5ca25f279882620", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135790\\91", "doc_code": "BC135790", "sub_type": "91CreditRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 14:01:02 kafka_consumer.py INFO  文件上传结束
+2019-06-14 14:01:02 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135790_bairong_100.pdf", "task_seq_no": "b91318cec15746ae93012bb25728cdb7", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135790\\bairong", "doc_code": "BC135790", "sub_type": "bairongRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 14:01:02 kafka_consumer.py INFO  文件上传结束
+2019-06-14 14:01:02 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135790_txsk_100.pdf", "task_seq_no": "5f7ed21d1b8b4bbb9d61adb75ffa66b2", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135790\\txsk", "doc_code": "BC135790", "sub_type": "tianxingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 14:01:02 kafka_consumer.py INFO  文件上传结束
+2019-06-14 14:01:02 kafka_consumer.py INFO  任务[afb54afa33e847a0b5ca25f279882620]文件上传成功
+2019-06-14 14:01:03 kafka_consumer.py INFO  任务[f4480cc9c86f4e8bbdeb993152011e0c]文件上传成功
+2019-06-14 14:01:03 kafka_consumer.py INFO  任务[b91318cec15746ae93012bb25728cdb7]文件上传成功
+2019-06-14 14:01:03 kafka_consumer.py INFO  任务[5f7ed21d1b8b4bbb9d61adb75ffa66b2]文件上传成功
+2019-06-14 14:01:04 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135790_py_100.pdf", "task_seq_no": "bb9d0dd497f24a30b73245eefb7b4880", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135790\\py", "doc_code": "BC135790", "sub_type": "pyratingRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 14:01:04 kafka_consumer.py INFO  文件上传结束
+2019-06-14 14:01:04 ju_xin_li.py INFO  聚信立数据爬取中
+2019-06-14 14:01:04 kafka_consumer.py INFO  任务[bb9d0dd497f24a30b73245eefb7b4880]文件上传成功
+2019-06-14 14:01:04 ju_xin_li.py INFO  聚信立数据爬取中
+2019-06-14 14:01:05 kafka_consumer.py INFO  任务[939a77f232b3420dbd2f568226430307]文件上传成功
+2019-06-14 14:01:06 shu_ju_mo_he.py INFO  数据魔盒数据获取成功
+2019-06-14 14:01:07 ju_xin_li.py INFO  聚信立数据写入HTML
+2019-06-14 14:01:08 ju_xin_li.py INFO  C:\wkhtml\fonts
+2019-06-14 14:01:08 ju_xin_li.py INFO  C:\wkhtml\crawler_report\2019\06\14\BC135790\jxl
+2019-06-14 14:01:08 ju_xin_li.py INFO  创建成功
+2019-06-14 14:01:12 ju_xin_li.py INFO  聚信立pdf报告生成
+2019-06-14 14:01:14 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135790_jxl_100.pdf", "task_seq_no": "c7d0e39fe8a846fc98d1430bc31d5982", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135790\\jxl", "doc_code": "BC135790", "sub_type": "juxinliRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 14:01:14 kafka_consumer.py INFO  文件上传结束
+2019-06-14 14:01:16 shu_ju_mo_he.py INFO  数据魔盒PDF生成
+2019-06-14 14:01:17 kafka_consumer.py INFO  任务[c7d0e39fe8a846fc98d1430bc31d5982]文件上传成功
+2019-06-14 14:01:18 kafka_consumer.py DEBUG  kafka解析参数{"local_file_name": "BC135790_sjmh_100.pdf", "task_seq_no": "5987ec0b9d874668a23d5c485711a0f1", "local_file_path": "C:\\wkhtml\\crawler_report\\2019\\06\\14\\BC135790\\sjmh", "doc_code": "BC135790", "sub_type": "shujumoheRep", "server_file_path": "/reports/2019/06/14", "buss_type": "creditReport"}
+2019-06-14 14:01:18 kafka_consumer.py INFO  文件上传结束
+2019-06-14 14:01:22 kafka_consumer.py INFO  任务[5987ec0b9d874668a23d5c485711a0f1]文件上传成功
