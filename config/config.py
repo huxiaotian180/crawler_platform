@@ -1,17 +1,17 @@
 # kafka 配置
 kafka_conf = {
-    'host': '192.168.1.252:9092,192.168.1.87:9092,192.168.1.155:9092',
+    'host': 'xxx.xxx.xxx.xxx:9092,xxx.xxx.xxx.xx:9092,xxx.xxx.x.xxx:9092',
     'topic': ['crawler_request', 'crawler_reports'],
     'group_id': 'craw'
 }
 
 # MySQL 配置
 mysql_conf = {
-    'host': '192.168.1.249',
-    'database': 'PTEST',
-    'user': 'ptest',
-    'password': 'C%e8J1d*qx1&p',
-    'charset': 'utf8'
+    'host': '',
+    'database': '',
+    'user': '',
+    'password': '',
+    'charset': ''
 }
 
 images_conf = {
