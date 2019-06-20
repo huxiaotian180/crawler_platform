@@ -15,9 +15,9 @@ mysql_conf = {
 }
 
 images_conf = {
-    'fileUpUrl': 'https://open.baixin.net.cn/wlzbimg/EasyScanAdapterAction_execute.action',
-    'indexUpUrl': 'https://open.baixin.net.cn/wlzbimg/servlet/EasyScanServlet',
-    'key': '04320dbced2d12969bc922d63d690edea78b0dd742b38c7a3bfa3b5a7b894b1b'
+    'fileUpUrl': 'https://sdfsd.dfsfs.net.cn/wlzbimg/sfdsd.action',
+    'indexUpUrl': 'https://fsdf.dsfsdf.net.cn/wlzbimg/servlet/sdfsd',
+    'key': '04320dbced2d12969bc922d63d690edea78b0d23232d742b38c7a3bfa3b5a7b894b1b'
 }
 
 # 报告文件输出路径
